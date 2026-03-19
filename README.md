@@ -1,2 +1,1 @@
-# DS_finance
-Projet Pratique de la Data Science
+# Projet Pratique de la Data Science
