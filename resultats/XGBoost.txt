@@ -1,0 +1,11 @@
+RÉSULTATS : XGBoost
+========================================
+              precision    recall  f1-score   support
+
+    Sell (0)       0.26      0.05      0.09      2116
+    Hold (1)       0.48      0.82      0.60      4458
+     Buy (2)       0.40      0.23      0.29      3303
+
+    accuracy                           0.45      9877
+   macro avg       0.38      0.36      0.33      9877
+weighted avg       0.41      0.45      0.39      9877

@@ -1,0 +1,33 @@
+name: Mise à jour automatique des données
+on:
+  schedule:
+    - cron: '1 8 * * *' # Chaque jour à 18h
+  workflow_dispatch:     # Permet de tester le bouton manuellement
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important pour pouvoir envoyer les changements
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+        
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Installer les dépendances
+        run: pip install yfinance pandas
+        
+      - name: Exécuter le script
+        run: fichier automatisation.py # REMPLACEZ PAR VOTRE NOM DE FICHIER
+        
+      - name: Envoyer les changements
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add Companies_historical_data/*.csv
+          git commit -m "MAJ automatique : Données entreprises" || echo "Pas de changement à commit"
+          git push

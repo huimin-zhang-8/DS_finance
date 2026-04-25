@@ -1,0 +1,11 @@
+RÉSULTATS : Random Forest
+========================================
+              precision    recall  f1-score   support
+
+    Sell (0)       0.29      0.13      0.18      2116
+    Hold (1)       0.49      0.69      0.57      4458
+     Buy (2)       0.37      0.29      0.33      3303
+
+    accuracy                           0.44      9877
+   macro avg       0.38      0.37      0.36      9877
+weighted avg       0.41      0.44      0.41      9877

@@ -1,0 +1,11 @@
+RÉSULTATS : KNN
+========================================
+              precision    recall  f1-score   support
+
+    Sell (0)       0.26      0.22      0.24      2116
+    Hold (1)       0.48      0.61      0.54      4458
+     Buy (2)       0.37      0.27      0.31      3303
+
+    accuracy                           0.41      9877
+   macro avg       0.37      0.37      0.36      9877
+weighted avg       0.39      0.41      0.40      9877
