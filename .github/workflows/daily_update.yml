@@ -22,7 +22,7 @@ jobs:
         run: pip install yfinance pandas
         
       - name: Exécuter le script
-        run: fichier automatisation.py # REMPLACEZ PAR VOTRE NOM DE FICHIER
+        run: fichier automatisation.py 
         
       - name: Envoyer les changements
         run: |
