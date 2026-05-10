@@ -3,6 +3,6 @@ _pycache__/
 companies_news/*
 tp6_claude.ipynb
 companies_historical_data/*
-news_data/*
 bert_results/*
 *.csv
+old_news_data/*
