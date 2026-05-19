@@ -1,80 +1,88 @@
 {
-    "2025-02-04": [
-        {
-            "title": "Harvest Announces Filing of the Preliminary Prospectus for 7 New Harvest High Income Shares ETFs",
-            "description": "OAKVILLE, Ontario — Harvest Portfolios Group Inc. (“Harvest”) is pleased to announce that it has filed a preliminary prospectus with the Canadian securities regulators for the Harvest Alphabet Enhanced High Income Shares ETF (“GOGY”), Harvest AMD Enhanced Hig…",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-04T13:17:23Z"
-        }
-    ],
-    "2025-02-11": [
-        {
-            "title": "AMD and the Commissariat à l’énergie atomique et aux énergies alternatives (CEA) to Collaborate on the Future of AI Compute",
-            "description": "— Technology leaders explore research partnership to advance next-generation AI computing architectures — SANTA CLARA, Calif., Feb. 11, 2025 (GLOBE NEWSWIRE) — AMD (NASDAQ: AMD) today announced the signing of a Letter of Intent (LOI) with the Commissariat à l…",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-11T08:02:27Z"
-        }
-    ],
-    "2025-02-18": [
-        {
-            "title": "Vultr Announces Availability of AMD Instinct MI325X GPUs to Power Enterprise AI",
-            "description": "Industry-first availability for AMD inference-optimized GPUs to build and scale AI-native applications WEST PALM BEACH, Fla. — Vultr, the world’s largest privately-held cloud infrastructure company, today announced the deployment of the AMD Instinct™ MI325X G…",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-18T15:08:16Z"
-        }
-    ],
-    "2025-03-11": [
-        {
-            "title": "AMD Unveils 5th Gen AMD EPYC Embedded Processors Delivering Leadership Performance, Efficiency and Long Product Lifecycles for Networking, Storage, and Industrial Edge Markets",
-            "description": "— High-performance “Zen 5” architecture offers server-grade performance and efficiency combined with purpose-built features for optimized product longevity and system resiliency — — Cisco and IBM among the first technology partners to adopt 5th Gen AMD EPYC E…",
-            "source": "Financial Post",
-            "publishedAt": "2025-03-11T08:01:57Z"
-        }
-    ],
-    "2025-03-31": [
-        {
-            "title": "Powered by 5th Gen AMD EPYC CPUs, Oracle Cloud Infrastructure Compute E6 Shapes Deliver Breakthrough Cloud Performance and Efficiency",
-            "description": "— Leading cloud services providers expand their adoption of EPYC CPUs to meet growing public cloud demand — SANTA CLARA, Calif., March 31, 2025 (GLOBE NEWSWIRE) — Today, AMD (NASDAQ: AMD) announced 5th Gen AMD EPYC™ processors power the Oracle Cloud Infrastru…",
-            "source": "Financial Post",
-            "publishedAt": "2025-03-31T13:02:50Z"
-        },
-        {
-            "title": "AMD Completes Acquisition of ZT Systems",
-            "description": "Strategic transaction combines industry-leading systems and rack-level expertise with AMD GPU, CPU and networking silicon and open-source software to address the $500 billion data center AI accelerator opportunity in 2028 SANTA CLARA, Calif., March 31, 2025 (…",
-            "source": "Financial Post",
-            "publishedAt": "2025-03-31T12:32:16Z"
-        }
-    ],
-    "2026-04-23": [
-        {
-            "title": "Bausch + Lomb Announces Published Review Examining the Role of B Vitamins in Reducing Risk and Progression of Age-Related Macular Degeneration",
-            "description": "Drawing on more than two decades of scientific evidence, a comprehensive review synthesizes more than 20 human studies highlighting the potential role of certain B vitamins in supporting eye health to help protect against age-related macular degeneration (AMD…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-23T11:07:57Z"
-        }
-    ],
-    "2026-04-28": [
-        {
-            "title": "AMD Announces “Advancing AI 2026”",
-            "description": "News Highlights: Advancing AI is AMD’s flagship global AI event, bringing developers, customers, enterprise leaders and partners together, showcasing the latest advancements in AMD AI solutions. SANTA CLARA, Calif., April 28, 2026 (GLOBE NEWSWIRE) — AMD (NASD…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-28T13:03:05Z"
-        }
-    ],
-    "2026-05-05": [
-        {
-            "title": "US Stocks Rise With Eyes on Fragile Iran Ceasefire, AMD Results",
-            "description": "US stocks were on track to set a record high on Tuesday as the US-Iran ceasefire appeared to hold after clashes in the Strait of Hormuz and missile attacks against the United Arab Emirates raised tensions in the Gulf.",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-05T16:02:45Z"
-        }
-    ],
-    "2026-05-07": [
-        {
-            "title": "AMD to Host Annual Meeting of Stockholders",
-            "description": "SANTA CLARA, Calif., May 07, 2026 (GLOBE NEWSWIRE) — AMD (NASDAQ: AMD) will hold its Annual Meeting of Stockholders on Wednesday, May 13, 2026 at 9 a.m. PT as a virtual meeting accessible at Forward-looking and other material information may be discussed duri…",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-07T20:19:07Z"
-        }
-    ]
+  "2025-02-04": [
+    {
+      "title": "Harvest Announces Filing of the Preliminary Prospectus for 7 New Harvest High Income Shares ETFs",
+      "description": "OAKVILLE, Ontario — Harvest Portfolios Group Inc. (“Harvest”) is pleased to announce that it has filed a preliminary prospectus with the Canadian securities regulators for the Harvest Alphabet Enhanced High Income Shares ETF (“GOGY”), Harvest AMD Enhanced Hig…",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-04T13:17:23Z"
+    }
+  ],
+  "2025-02-11": [
+    {
+      "title": "AMD and the Commissariat à l’énergie atomique et aux énergies alternatives (CEA) to Collaborate on the Future of AI Compute",
+      "description": "— Technology leaders explore research partnership to advance next-generation AI computing architectures — SANTA CLARA, Calif., Feb. 11, 2025 (GLOBE NEWSWIRE) — AMD (NASDAQ: AMD) today announced the signing of a Letter of Intent (LOI) with the Commissariat à l…",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-11T08:02:27Z"
+    }
+  ],
+  "2025-02-18": [
+    {
+      "title": "Vultr Announces Availability of AMD Instinct MI325X GPUs to Power Enterprise AI",
+      "description": "Industry-first availability for AMD inference-optimized GPUs to build and scale AI-native applications WEST PALM BEACH, Fla. — Vultr, the world’s largest privately-held cloud infrastructure company, today announced the deployment of the AMD Instinct™ MI325X G…",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-18T15:08:16Z"
+    }
+  ],
+  "2025-03-11": [
+    {
+      "title": "AMD Unveils 5th Gen AMD EPYC Embedded Processors Delivering Leadership Performance, Efficiency and Long Product Lifecycles for Networking, Storage, and Industrial Edge Markets",
+      "description": "— High-performance “Zen 5” architecture offers server-grade performance and efficiency combined with purpose-built features for optimized product longevity and system resiliency — — Cisco and IBM among the first technology partners to adopt 5th Gen AMD EPYC E…",
+      "source": "Financial Post",
+      "publishedAt": "2025-03-11T08:01:57Z"
+    }
+  ],
+  "2025-03-31": [
+    {
+      "title": "Powered by 5th Gen AMD EPYC CPUs, Oracle Cloud Infrastructure Compute E6 Shapes Deliver Breakthrough Cloud Performance and Efficiency",
+      "description": "— Leading cloud services providers expand their adoption of EPYC CPUs to meet growing public cloud demand — SANTA CLARA, Calif., March 31, 2025 (GLOBE NEWSWIRE) — Today, AMD (NASDAQ: AMD) announced 5th Gen AMD EPYC™ processors power the Oracle Cloud Infrastru…",
+      "source": "Financial Post",
+      "publishedAt": "2025-03-31T13:02:50Z"
+    },
+    {
+      "title": "AMD Completes Acquisition of ZT Systems",
+      "description": "Strategic transaction combines industry-leading systems and rack-level expertise with AMD GPU, CPU and networking silicon and open-source software to address the $500 billion data center AI accelerator opportunity in 2028 SANTA CLARA, Calif., March 31, 2025 (…",
+      "source": "Financial Post",
+      "publishedAt": "2025-03-31T12:32:16Z"
+    }
+  ],
+  "2026-04-23": [
+    {
+      "title": "Bausch + Lomb Announces Published Review Examining the Role of B Vitamins in Reducing Risk and Progression of Age-Related Macular Degeneration",
+      "description": "Drawing on more than two decades of scientific evidence, a comprehensive review synthesizes more than 20 human studies highlighting the potential role of certain B vitamins in supporting eye health to help protect against age-related macular degeneration (AMD…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-23T11:07:57Z"
+    }
+  ],
+  "2026-04-28": [
+    {
+      "title": "AMD Announces “Advancing AI 2026”",
+      "description": "News Highlights: Advancing AI is AMD’s flagship global AI event, bringing developers, customers, enterprise leaders and partners together, showcasing the latest advancements in AMD AI solutions. SANTA CLARA, Calif., April 28, 2026 (GLOBE NEWSWIRE) — AMD (NASD…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-28T13:03:05Z"
+    }
+  ],
+  "2026-05-05": [
+    {
+      "title": "US Stocks Rise With Eyes on Fragile Iran Ceasefire, AMD Results",
+      "description": "US stocks were on track to set a record high on Tuesday as the US-Iran ceasefire appeared to hold after clashes in the Strait of Hormuz and missile attacks against the United Arab Emirates raised tensions in the Gulf.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-05T16:02:45Z"
+    }
+  ],
+  "2026-05-07": [
+    {
+      "title": "AMD to Host Annual Meeting of Stockholders",
+      "description": "SANTA CLARA, Calif., May 07, 2026 (GLOBE NEWSWIRE) — AMD (NASDAQ: AMD) will hold its Annual Meeting of Stockholders on Wednesday, May 13, 2026 at 9 a.m. PT as a virtual meeting accessible at Forward-looking and other material information may be discussed duri…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-07T20:19:07Z"
+    }
+  ],
+  "2026-05-11": [
+    {
+      "title": "Dynabook Canada expands AMD-powered offerings with new Portégé® X45W 14-inch 2-in-1 convertible laptop",
+      "description": "Premium, Versatile 2-in-1 Convertible Laptop Delivers a 14” Touch-and-Pen Experience, Wi-Fi 7 and Robust Connectivity for Business, Education, Healthcare and Public Sector Workflows MISSISSAUGA, Ontario, May 11, 2026 (GLOBE NEWSWIRE) — Dynabook Canada Inc., t…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-11T12:26:04Z"
+    }
+  ]
 }

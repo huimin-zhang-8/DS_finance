@@ -1,72 +1,102 @@
 {
-    "2025-02-13": [
-        {
-            "title": "Apple picks Alibaba to launch AI features in China | CNN Business",
-            "description": "Apple will work with Chinese tech giant Alibaba to roll out AI services in the world’s biggest market for mobile phones, in a move that removes months of uncertainty for the Cupertino-based firm.",
-            "source": "CNN",
-            "publishedAt": "2025-02-13T10:32:59Z"
-        }
-    ],
-    "2025-02-17": [
-        {
-            "title": "China’s Xi meets with business leaders, including Alibaba co-founder Jack Ma, to boost economy",
-            "description": "BANGKOK (AP) — China’s President Xi Jinping met with private sector business leaders on Monday, state media reported, as government officials work to revive an economy disrupted by a pandemic, regulatory crackdowns and a real estate crisis. Among the delegate…",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-17T10:40:55Z"
-        },
-        {
-            "title": "China’s Xi hosts top tech bosses, Alibaba co-founder Jack Ma spotted in attendance",
-            "description": "Chinese leader Xi Jinping hosted Alibaba co-founder Jack Ma and the country’s top tech executives in Beijing on Monday, in a meeting that signals officials could be steering the country in a more business-friendly direction after a yearslong regulatory crackd…",
-            "source": "CNN",
-            "publishedAt": "2025-02-17T07:10:53Z"
-        }
-    ],
-    "2025-02-24": [
-        {
-            "title": "Alibaba shares tumble as Trump order stirs China trade angst",
-            "description": "Alibaba Group Holding Ltd shares tumbled as Donald Trump’s latest executive order stirred fears about deepening trade tensions. Read more",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-24T21:58:56Z"
-        }
-    ],
-    "2025-03-06": [
-        {
-            "title": "Chinese AI: Manus ‘agent’ and Alibaba’s new model released in quick succession",
-            "description": "The Chinese tech giant unveiled its latest AI reasoning model on Thursday, saying it beats rivals from OpenAI and DeepSeek. The day before another company launched a “general AI agent” called Manus.",
-            "source": "CNN",
-            "publishedAt": "2025-03-06T09:41:38Z"
-        }
-    ],
-    "2025-03-24": [
-        {
-            "title": "Tencent upgrades AI model to compete with DeepSeek, Alibaba",
-            "description": "A team of Tencent engineers claimed in an event streamed online that the new model has cutting-edge logic and writing capabilities, with few hallucinations or distortions",
-            "source": "Bloomberg",
-            "publishedAt": "2025-03-24T03:47:53Z"
-        }
-    ],
-    "2026-04-15": [
-        {
-            "title": "Tesla’s Chinese Robot Rival Ramps up Global Push Ahead of IPO",
-            "description": "Unitree Robotics began selling its cheapest humanoid robot on Alibaba Group Holding Ltd.’s AliExpress on Wednesday, expanding its international presence in a white-hot race featuring heavyweight players like Elon Musk’s Tesla Inc.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-15T09:08:11Z"
-        }
-    ],
-    "2026-04-16": [
-        {
-            "title": "Alibaba moves onto Tencent’s turf with AI model for 3D video",
-            "description": "The new model unveiled Thursday was developed by the Alibaba Token Hub, a newly created business unit, the company said in a post on X. The tool is so far only available on a limited early-access basis, says Alibaba",
-            "source": "Bloomberg",
-            "publishedAt": "2026-04-16T09:05:48Z"
-        }
-    ],
-    "2026-04-23": [
-        {
-            "title": "Tencent, Alibaba in talks to join DeepSeek’s first funding round",
-            "description": "DeepSeek is owned by hedge fund Zhejiang High-Flyer Asset Management, whose cofounder Liang Wenfeng formed the startup in 2023",
-            "source": "Bloomberg",
-            "publishedAt": "2026-04-23T04:18:42Z"
-        }
-    ]
+  "2025-02-13": [
+    {
+      "title": "Apple picks Alibaba to launch AI features in China | CNN Business",
+      "description": "Apple will work with Chinese tech giant Alibaba to roll out AI services in the world’s biggest market for mobile phones, in a move that removes months of uncertainty for the Cupertino-based firm.",
+      "source": "CNN",
+      "publishedAt": "2025-02-13T10:32:59Z"
+    }
+  ],
+  "2025-02-17": [
+    {
+      "title": "China’s Xi meets with business leaders, including Alibaba co-founder Jack Ma, to boost economy",
+      "description": "BANGKOK (AP) — China’s President Xi Jinping met with private sector business leaders on Monday, state media reported, as government officials work to revive an economy disrupted by a pandemic, regulatory crackdowns and a real estate crisis. Among the delegate…",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-17T10:40:55Z"
+    },
+    {
+      "title": "China’s Xi hosts top tech bosses, Alibaba co-founder Jack Ma spotted in attendance",
+      "description": "Chinese leader Xi Jinping hosted Alibaba co-founder Jack Ma and the country’s top tech executives in Beijing on Monday, in a meeting that signals officials could be steering the country in a more business-friendly direction after a yearslong regulatory crackd…",
+      "source": "CNN",
+      "publishedAt": "2025-02-17T07:10:53Z"
+    }
+  ],
+  "2025-02-24": [
+    {
+      "title": "Alibaba shares tumble as Trump order stirs China trade angst",
+      "description": "Alibaba Group Holding Ltd shares tumbled as Donald Trump’s latest executive order stirred fears about deepening trade tensions. Read more",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-24T21:58:56Z"
+    }
+  ],
+  "2025-03-06": [
+    {
+      "title": "Chinese AI: Manus ‘agent’ and Alibaba’s new model released in quick succession",
+      "description": "The Chinese tech giant unveiled its latest AI reasoning model on Thursday, saying it beats rivals from OpenAI and DeepSeek. The day before another company launched a “general AI agent” called Manus.",
+      "source": "CNN",
+      "publishedAt": "2025-03-06T09:41:38Z"
+    }
+  ],
+  "2025-03-24": [
+    {
+      "title": "Tencent upgrades AI model to compete with DeepSeek, Alibaba",
+      "description": "A team of Tencent engineers claimed in an event streamed online that the new model has cutting-edge logic and writing capabilities, with few hallucinations or distortions",
+      "source": "Bloomberg",
+      "publishedAt": "2025-03-24T03:47:53Z"
+    }
+  ],
+  "2026-04-15": [
+    {
+      "title": "Tesla’s Chinese Robot Rival Ramps up Global Push Ahead of IPO",
+      "description": "Unitree Robotics began selling its cheapest humanoid robot on Alibaba Group Holding Ltd.’s AliExpress on Wednesday, expanding its international presence in a white-hot race featuring heavyweight players like Elon Musk’s Tesla Inc.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-15T09:08:11Z"
+    }
+  ],
+  "2026-04-16": [
+    {
+      "title": "Alibaba moves onto Tencent’s turf with AI model for 3D video",
+      "description": "The new model unveiled Thursday was developed by the Alibaba Token Hub, a newly created business unit, the company said in a post on X. The tool is so far only available on a limited early-access basis, says Alibaba",
+      "source": "Bloomberg",
+      "publishedAt": "2026-04-16T09:05:48Z"
+    }
+  ],
+  "2026-04-23": [
+    {
+      "title": "Tencent, Alibaba in talks to join DeepSeek’s first funding round",
+      "description": "DeepSeek is owned by hedge fund Zhejiang High-Flyer Asset Management, whose cofounder Liang Wenfeng formed the startup in 2023",
+      "source": "Bloomberg",
+      "publishedAt": "2026-04-23T04:18:42Z"
+    }
+  ],
+  "2026-05-11": [
+    {
+      "title": "Tencent, Alibaba Face Slowing Growth as AI Costs Mount",
+      "description": "Tencent Holdings Ltd. and Alibaba Group Holding Ltd. earnings will be shaped by rising artificial intelligence investment costs and growing competition in China’s AI sector, following DeepSeek’s high-profile V4 model launch.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-11T01:33:54Z"
+    }
+  ],
+  "2026-05-13": [
+    {
+      "title": "Alibaba, Tencent disappoint investors hoping for big AI payoff",
+      "description": "China’s leaders in AI reported revenues short of estimates, disappointing investors who hoped AI spending would turbocharge growth. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-13T14:33:22Z"
+    },
+    {
+      "title": "DutyFreeAlibaba.com and AlibabaDutyFree.com Announce Global Vendor, Wholesale & Investor Enrollment Ahead of Fall 2026 Launch",
+      "description": "Bringing the Alibaba-Style Marketplace Concept to the Global Duty-Free World MIAMI, May 13, 2026 (GLOBE NEWSWIRE) — DutyFreeAlibaba.com and AlibabaDutyFree.com, two next-generation digital marketplace platforms under development, today announced the opening o…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-13T07:36:08Z"
+    }
+  ],
+  "2026-05-14": [
+    {
+      "title": "Emerging-Market Stocks Rise as Alibaba, TSMC Join AI Hot Streak",
+      "description": "Emerging-market stocks advanced for the third day this week as technology companies in Taiwan and China joined a hot streak by South Korean peers, buoyed by optimism that talks between the US and China will improve trade ties and boost demand for artificial i…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-14T13:20:51Z"
+    }
+  ]
 }

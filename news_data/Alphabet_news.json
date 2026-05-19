@@ -1,138 +1,166 @@
 {
-    "2025-01-16": [
-        {
-            "title": "Google Backs Indian Heated-Waste Startup With Carbon-Offset Deal",
-            "description": "Alphabet Inc.’s Google will buy carbon-removal credits based on projects using biochar that’s made by heating organic waste, one of the biggest such deals to date.",
-            "source": "Financial Post",
-            "publishedAt": "2025-01-16T12:15:32Z"
-        }
-    ],
-    "2025-01-23": [
-        {
-            "title": "Apple and Google hit with U.K. antitrust probe",
-            "description": "Apple Inc. and Alphabet Inc. were hit with U.K. antitrust investigations over their market dominance in mobile services. Read here for more",
-            "source": "Financial Post",
-            "publishedAt": "2025-01-23T14:29:06Z"
-        }
-    ],
-    "2025-02-04": [
-        {
-            "title": "Alphabet’s Discounted Valuation Is an Antidote to Tariff Risk",
-            "description": "Despite being targeted by Beijing in retaliation to US trade tariffs, Alphabet Inc.’s durable growth and attractive valuation may offer insulation from all the geopolitical uncertainty.",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-04T12:51:41Z"
-        },
-        {
-            "title": "Harvest Announces Filing of the Preliminary Prospectus for 7 New Harvest High Income Shares ETFs",
-            "description": "OAKVILLE, Ontario — Harvest Portfolios Group Inc. (“Harvest”) is pleased to announce that it has filed a preliminary prospectus with the Canadian securities regulators for the Harvest Alphabet Enhanced High Income Shares ETF (“GOGY”), Harvest AMD Enhanced Hig…",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-04T13:17:23Z"
-        },
-        {
-            "title": "Alphabet's discounted valuation can help against tariff risk",
-            "description": "Alphabet’s durable growth and attractive valuation may offer insulation from all the geopolitical uncertainty. Read more.",
-            "source": "Financial Post",
-            "publishedAt": "2025-02-04T12:51:41Z"
-        }
-    ],
-    "2025-02-05": [
-        {
-            "title": "Google owner Alphabet drops promise over 'harmful' AI uses",
-            "description": "The tech giant has updated the principles governing its development of artificial intelligence.",
-            "source": "BBC News",
-            "publishedAt": "2025-02-05T01:12:23Z"
-        }
-    ],
-    "2025-02-27": [
-        {
-            "title": "Alphabet’s Google cuts employees in cloud division",
-            "description": "The retrenchment comes in the wake of slower growth from Google’s cloud business, as well as massive spending aimed at supporting the tech giant’s ambitions in AI",
-            "source": "Bloomberg",
-            "publishedAt": "2025-02-27T03:54:18Z"
-        }
-    ],
-    "2025-03-03": [
-        {
-            "title": "Seems Like Old Times: Read Our New-Look Markets A.M. Newsletter",
-            "description": " This is an online version of our new Markets A.M. newsletter by Spencer Jakab. Get investing insights in your inbox each weekday by signing up here—it’s free. Alphabet boss Sundar Pichai thinks artificial intelligence is bigger than fire, but then a CEO …",
-            "source": "The Wall Street Journal",
-            "publishedAt": "2025-03-03T13:21:09Z"
-        }
-    ],
-    "2025-03-07": [
-        {
-            "title": "Harvest Announces HHIS Portfolio Additions",
-            "description": "OAKVILLE, Ontario — Harvest Portfolios Group Inc. (“Harvest”) announces pending additions of the recently listed Harvest Enhanced High Income Shares ETFs to the Harvest Diversified High Income Shares ETF (“HHIS:TSX”) portfolio. The Harvest Alphabet Enhanced H…",
-            "source": "Financial Post",
-            "publishedAt": "2025-03-07T12:36:23Z"
-        }
-    ],
-    "2025-03-18": [
-        {
-            "title": "Alphabet to buy cybersecurity startup Wiz for $32 billion",
-            "description": "NEW YORK (AP) — Google owner Alphabet will buy cybersecurity firm Wiz for $32 billion — in a deal set to boost the tech giant’s in-house cloud computing amid burgeoning artifical intelligence growth. If closed, the-cash transaction, announced Tuesday, will be…",
-            "source": "Financial Post",
-            "publishedAt": "2025-03-18T13:24:03Z"
-        }
-    ],
-    "2026-04-14": [
-        {
-            "title": "Google faces mass arbitration as advertisers seek billions",
-            "description": "Alphabet Inc.’s Google is facing billions of dollars in claims as part of mass arbitration tied to their search and ad businesses. Read on",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-14T16:02:54Z"
-        }
-    ],
-    "2026-04-27": [
-        {
-            "title": "Hut 8 Is Selling Bonds to Help Finance Google-Tied Data Center",
-            "description": "A Hut 8 Corp. project is selling investment-grade bonds on Monday to fund the construction of a data center tied to Alphabet Inc.’s Google, the latest in a string of borrowing by firms spearheading the artificial intelligence boom.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-27T14:03:47Z"
-        }
-    ],
-    "2026-04-29": [
-        {
-            "title": "Alphabet sales beat estimates on Google cloud, AI customers",
-            "description": "Alphabet Inc. reported quarterly revenue and profit that beat projections, fuelled by strong growth in its cloud computing unit. Read more.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-29T20:47:38Z"
-        }
-    ],
-    "2026-05-05": [
-        {
-            "title": "Alphabet’s Record Canadian Debt Deal Weighs on Bond Spreads",
-            "description": "Alphabet Inc.’s C$8.5 billion ($6.24 billion) bond deal is driving corporate and provincial spreads wider in Canada as investors’ enthusiasm for the hyperscaler’s debt tests the market’s ability to absorb it.",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-05T17:19:18Z"
-        },
-        {
-            "title": "Alphabet Returns to Euro Debt Market for Latest AI Megabond Deal",
-            "description": "Alphabet Inc. is selling its biggest-ever euro-denominated bond and tapping the Canadian dollar debt market for the first time just months after record-breaking deals in other currencies, showing the huge funding needs of its ambitions in artificial intellige…",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-05T14:15:22Z"
-        },
-        {
-            "title": "Alphabet's record Canadian debt deal weighs on bond spreads",
-            "description": "Alphabet Inc.’s $8.5 billion bond deal is driving spreads wider in Canada as enthusiasm for the hyperscaler’s debt tests the market. Read on",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-05T17:19:18Z"
-        }
-    ],
-    "2026-05-06": [
-        {
-            "title": "Invesco Says Big Tech Needs ‘Every Dollar’ It Can Get in AI Debt",
-            "description": "Alphabet Inc.’s debt issuance in Europe and Canada underscores Big Tech’s relentless drive to find funds anywhere to pay for the industry’s stampede into artificial intelligence, according to Matt Brill at Invesco.",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-06T14:00:11Z"
-        }
-    ],
-    "2026-05-08": [
-        {
-            "title": "Google judge says too early to pause DOJ remedy in search case",
-            "description": "A U.S. judge rejected Alphabet Inc.’s request to pause an order that forces them to provide rivals with access to its search data. Read on",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-08T14:05:00Z"
-        }
-    ]
+  "2025-01-16": [
+    {
+      "title": "Google Backs Indian Heated-Waste Startup With Carbon-Offset Deal",
+      "description": "Alphabet Inc.’s Google will buy carbon-removal credits based on projects using biochar that’s made by heating organic waste, one of the biggest such deals to date.",
+      "source": "Financial Post",
+      "publishedAt": "2025-01-16T12:15:32Z"
+    }
+  ],
+  "2025-01-23": [
+    {
+      "title": "Apple and Google hit with U.K. antitrust probe",
+      "description": "Apple Inc. and Alphabet Inc. were hit with U.K. antitrust investigations over their market dominance in mobile services. Read here for more",
+      "source": "Financial Post",
+      "publishedAt": "2025-01-23T14:29:06Z"
+    }
+  ],
+  "2025-02-04": [
+    {
+      "title": "Alphabet’s Discounted Valuation Is an Antidote to Tariff Risk",
+      "description": "Despite being targeted by Beijing in retaliation to US trade tariffs, Alphabet Inc.’s durable growth and attractive valuation may offer insulation from all the geopolitical uncertainty.",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-04T12:51:41Z"
+    },
+    {
+      "title": "Harvest Announces Filing of the Preliminary Prospectus for 7 New Harvest High Income Shares ETFs",
+      "description": "OAKVILLE, Ontario — Harvest Portfolios Group Inc. (“Harvest”) is pleased to announce that it has filed a preliminary prospectus with the Canadian securities regulators for the Harvest Alphabet Enhanced High Income Shares ETF (“GOGY”), Harvest AMD Enhanced Hig…",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-04T13:17:23Z"
+    },
+    {
+      "title": "Alphabet's discounted valuation can help against tariff risk",
+      "description": "Alphabet’s durable growth and attractive valuation may offer insulation from all the geopolitical uncertainty. Read more.",
+      "source": "Financial Post",
+      "publishedAt": "2025-02-04T12:51:41Z"
+    }
+  ],
+  "2025-02-05": [
+    {
+      "title": "Google owner Alphabet drops promise over 'harmful' AI uses",
+      "description": "The tech giant has updated the principles governing its development of artificial intelligence.",
+      "source": "BBC News",
+      "publishedAt": "2025-02-05T01:12:23Z"
+    }
+  ],
+  "2025-02-27": [
+    {
+      "title": "Alphabet’s Google cuts employees in cloud division",
+      "description": "The retrenchment comes in the wake of slower growth from Google’s cloud business, as well as massive spending aimed at supporting the tech giant’s ambitions in AI",
+      "source": "Bloomberg",
+      "publishedAt": "2025-02-27T03:54:18Z"
+    }
+  ],
+  "2025-03-03": [
+    {
+      "title": "Seems Like Old Times: Read Our New-Look Markets A.M. Newsletter",
+      "description": " This is an online version of our new Markets A.M. newsletter by Spencer Jakab. Get investing insights in your inbox each weekday by signing up here—it’s free. Alphabet boss Sundar Pichai thinks artificial intelligence is bigger than fire, but then a CEO …",
+      "source": "The Wall Street Journal",
+      "publishedAt": "2025-03-03T13:21:09Z"
+    }
+  ],
+  "2025-03-07": [
+    {
+      "title": "Harvest Announces HHIS Portfolio Additions",
+      "description": "OAKVILLE, Ontario — Harvest Portfolios Group Inc. (“Harvest”) announces pending additions of the recently listed Harvest Enhanced High Income Shares ETFs to the Harvest Diversified High Income Shares ETF (“HHIS:TSX”) portfolio. The Harvest Alphabet Enhanced H…",
+      "source": "Financial Post",
+      "publishedAt": "2025-03-07T12:36:23Z"
+    }
+  ],
+  "2025-03-18": [
+    {
+      "title": "Alphabet to buy cybersecurity startup Wiz for $32 billion",
+      "description": "NEW YORK (AP) — Google owner Alphabet will buy cybersecurity firm Wiz for $32 billion — in a deal set to boost the tech giant’s in-house cloud computing amid burgeoning artifical intelligence growth. If closed, the-cash transaction, announced Tuesday, will be…",
+      "source": "Financial Post",
+      "publishedAt": "2025-03-18T13:24:03Z"
+    }
+  ],
+  "2026-04-14": [
+    {
+      "title": "Google faces mass arbitration as advertisers seek billions",
+      "description": "Alphabet Inc.’s Google is facing billions of dollars in claims as part of mass arbitration tied to their search and ad businesses. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-14T16:02:54Z"
+    }
+  ],
+  "2026-04-27": [
+    {
+      "title": "Hut 8 Is Selling Bonds to Help Finance Google-Tied Data Center",
+      "description": "A Hut 8 Corp. project is selling investment-grade bonds on Monday to fund the construction of a data center tied to Alphabet Inc.’s Google, the latest in a string of borrowing by firms spearheading the artificial intelligence boom.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-27T14:03:47Z"
+    }
+  ],
+  "2026-04-29": [
+    {
+      "title": "Alphabet sales beat estimates on Google cloud, AI customers",
+      "description": "Alphabet Inc. reported quarterly revenue and profit that beat projections, fuelled by strong growth in its cloud computing unit. Read more.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-29T20:47:38Z"
+    }
+  ],
+  "2026-05-05": [
+    {
+      "title": "Alphabet’s Record Canadian Debt Deal Weighs on Bond Spreads",
+      "description": "Alphabet Inc.’s C$8.5 billion ($6.24 billion) bond deal is driving corporate and provincial spreads wider in Canada as investors’ enthusiasm for the hyperscaler’s debt tests the market’s ability to absorb it.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-05T17:19:18Z"
+    },
+    {
+      "title": "Alphabet Returns to Euro Debt Market for Latest AI Megabond Deal",
+      "description": "Alphabet Inc. is selling its biggest-ever euro-denominated bond and tapping the Canadian dollar debt market for the first time just months after record-breaking deals in other currencies, showing the huge funding needs of its ambitions in artificial intellige…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-05T14:15:22Z"
+    },
+    {
+      "title": "Alphabet's record Canadian debt deal weighs on bond spreads",
+      "description": "Alphabet Inc.’s $8.5 billion bond deal is driving spreads wider in Canada as enthusiasm for the hyperscaler’s debt tests the market. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-05T17:19:18Z"
+    }
+  ],
+  "2026-05-06": [
+    {
+      "title": "Invesco Says Big Tech Needs ‘Every Dollar’ It Can Get in AI Debt",
+      "description": "Alphabet Inc.’s debt issuance in Europe and Canada underscores Big Tech’s relentless drive to find funds anywhere to pay for the industry’s stampede into artificial intelligence, according to Matt Brill at Invesco.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-06T14:00:11Z"
+    }
+  ],
+  "2026-05-08": [
+    {
+      "title": "Google judge says too early to pause DOJ remedy in search case",
+      "description": "A U.S. judge rejected Alphabet Inc.’s request to pause an order that forces them to provide rivals with access to its search data. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-08T14:05:00Z"
+    }
+  ],
+  "2026-05-11": [
+    {
+      "title": "AI wins have Alphabet poised to become world’s biggest company",
+      "description": "Alphabet has gone from an AI afterthought to the one firm in the market with dominant positions in nearly every aspect of the tech. Read on.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-11T14:46:07Z"
+    },
+    {
+      "title": "Hackers used AI to build zero-day attack, Google researchers say",
+      "description": "Researchers at Alphabet Inc.’s Google believe a cybercrime group used AI to create a hacking tool that can bypass admin defences. Read here",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-11T15:04:16Z"
+    }
+  ],
+  "2026-05-14": [
+    {
+      "title": "AI Bond Binge Overwhelms Wall Street, Pushes Alphabet Abroad",
+      "description": "Bankers were still putting the final touches on Alphabet Inc.’s blockbuster $17 billion of bond sales when word started to spread Monday morning on Wall Street: the company is already hawking more debt.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-14T07:27:32Z"
+    },
+    {
+      "title": "AI bond binge overwhelms Wall Street, pushes Alphabet abroad",
+      "description": "In all, Alphabet will have raised close to US$60 billion, a four-month run that ranks as one of the greatest corporate borrowing binges ever",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-14T07:27:32Z"
+    }
+  ]
 }

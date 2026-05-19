@@ -1,88 +1,104 @@
 {
-    "2026-04-15": [
-        {
-            "title": "Memory chip crunch and Iran war lead phone market decline, IDC says",
-            "description": "Global smartphone market declines 4.1% amid memory chip shortages and Iran war, with only Apple and Samsung showing growth.",
-            "source": "Bloomberg",
-            "publishedAt": "2026-04-15T08:13:50Z"
-        }
-    ],
-    "2026-04-18": [
-        {
-            "title": "Apple’s Mac Mini Went Viral. Why Can’t You Buy One Right Now? - WSJ",
-            "description": "",
-            "source": "The Wall Street Journal",
-            "publishedAt": "2026-04-18T16:48:37Z"
-        }
-    ],
-    "2026-04-20": [
-        {
-            "title": "Apple CEO Tim Cook to step down in September, hand helm to John Ternus",
-            "description": "Apple CEO Tim Cook will step down at the beginning of September and be replaced by hardware chief John Ternus. Read more",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-20T22:47:19Z"
-        },
-        {
-            "title": "Apple names new chief executive to replace Tim Cook",
-            "description": "John Ternus will take over running the technology giant as Cook steps up to become executive chairman.",
-            "source": "BBC News",
-            "publishedAt": "2026-04-20T20:57:25Z"
-        },
-        {
-            "title": "Apple CEO Tim Cook to step down after more than a decade | CNN Business",
-            "description": "Tim Cook, the executive who led Apple to become a $4 trillion company and defined its identity in the post-Steve Jobs era, is stepping down as CEO, Apple said on Monday.",
-            "source": "CNN",
-            "publishedAt": "2026-04-20T20:43:29Z"
-        }
-    ],
-    "2026-04-21": [
-        {
-            "title": "Apple CEO Tim Cook’s 15-Year Legacy by the Numbers",
-            "description": "Fifteen years after succeeding Steve Jobs, Tim Cook is handing over the top leadership position at Apple Inc. to hardware specialist John Ternus. The outgoing chief executive officer, who’ll stay on as executive chairman, built up an unprecedented record of s…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-21T08:05:26Z"
-        },
-        {
-            "title": "Apple’s next CEO John Ternus faces defining AI moment",
-            "description": "John Ternus will take over as Apple Inc.'s CEO in September as the iPhone-maker battles doubts over its position in AI. Find out more.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-21T17:38:21Z"
-        },
-        {
-            "title": "Apple bets new CEO John Ternus will bring back Jobs-era decisiveness",
-            "description": "Even as John Ternus maintains Apple’s device empire, the executive will need to take chances and find the company’s AI footing. Read here",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-21T14:58:58Z"
-        },
-        {
-            "title": "Apple’s Cook Says He’s ‘Healthy,’ Will Be Chairman for Long Time",
-            "description": "Apple Inc.’s Tim Cook, who’s stepping down as chief executive officer later this year, told employees on Tuesday that he is “healthy” and plans to serve as executive chairman for a long time.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-21T18:04:09Z"
-        }
-    ],
-    "2026-04-22": [
-        {
-            "title": "Apple’s new CEO will need to stave off exodus of top talent",
-            "description": "John Ternus, Apple’s next CEO, is up against a major challenge: retaining top talent during a time of historic turnover. Read more.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-22T11:31:22Z"
-        }
-    ],
-    "2026-04-30": [
-        {
-            "title": "Apple earnings become sideshow with new CEO ready to grab reins",
-            "description": "Apple Inc. investors will be largely looking past reported earnings and seeking clues to incoming CEO John Ternus’ strategic plans. Read now",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-30T18:44:32Z"
-        }
-    ],
-    "2026-05-07": [
-        {
-            "title": "Rave Sues Apple in Five Countries Over App Store Removal",
-            "description": "Alleges Antitrust Violations in U.S., Canada, Brazil, the Netherlands and Russia to Restore Access for Users and Defend Fair Competition for App Developers Alleges Apple Acted to Stop Rave from Competing with Apple’s Own Co-Viewing App Rave Launches Proprieta…",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-07T15:04:07Z"
-        }
-    ]
+  "2026-04-15": [
+    {
+      "title": "Memory chip crunch and Iran war lead phone market decline, IDC says",
+      "description": "Global smartphone market declines 4.1% amid memory chip shortages and Iran war, with only Apple and Samsung showing growth.",
+      "source": "Bloomberg",
+      "publishedAt": "2026-04-15T08:13:50Z"
+    }
+  ],
+  "2026-04-18": [
+    {
+      "title": "Apple’s Mac Mini Went Viral. Why Can’t You Buy One Right Now? - WSJ",
+      "description": "",
+      "source": "The Wall Street Journal",
+      "publishedAt": "2026-04-18T16:48:37Z"
+    }
+  ],
+  "2026-04-20": [
+    {
+      "title": "Apple CEO Tim Cook to step down in September, hand helm to John Ternus",
+      "description": "Apple CEO Tim Cook will step down at the beginning of September and be replaced by hardware chief John Ternus. Read more",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-20T22:47:19Z"
+    },
+    {
+      "title": "Apple names new chief executive to replace Tim Cook",
+      "description": "John Ternus will take over running the technology giant as Cook steps up to become executive chairman.",
+      "source": "BBC News",
+      "publishedAt": "2026-04-20T20:57:25Z"
+    },
+    {
+      "title": "Apple CEO Tim Cook to step down after more than a decade | CNN Business",
+      "description": "Tim Cook, the executive who led Apple to become a $4 trillion company and defined its identity in the post-Steve Jobs era, is stepping down as CEO, Apple said on Monday.",
+      "source": "CNN",
+      "publishedAt": "2026-04-20T20:43:29Z"
+    }
+  ],
+  "2026-04-21": [
+    {
+      "title": "Apple CEO Tim Cook’s 15-Year Legacy by the Numbers",
+      "description": "Fifteen years after succeeding Steve Jobs, Tim Cook is handing over the top leadership position at Apple Inc. to hardware specialist John Ternus. The outgoing chief executive officer, who’ll stay on as executive chairman, built up an unprecedented record of s…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-21T08:05:26Z"
+    },
+    {
+      "title": "Apple’s next CEO John Ternus faces defining AI moment",
+      "description": "John Ternus will take over as Apple Inc.'s CEO in September as the iPhone-maker battles doubts over its position in AI. Find out more.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-21T17:38:21Z"
+    },
+    {
+      "title": "Apple bets new CEO John Ternus will bring back Jobs-era decisiveness",
+      "description": "Even as John Ternus maintains Apple’s device empire, the executive will need to take chances and find the company’s AI footing. Read here",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-21T14:58:58Z"
+    },
+    {
+      "title": "Apple’s Cook Says He’s ‘Healthy,’ Will Be Chairman for Long Time",
+      "description": "Apple Inc.’s Tim Cook, who’s stepping down as chief executive officer later this year, told employees on Tuesday that he is “healthy” and plans to serve as executive chairman for a long time.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-21T18:04:09Z"
+    }
+  ],
+  "2026-04-22": [
+    {
+      "title": "Apple’s new CEO will need to stave off exodus of top talent",
+      "description": "John Ternus, Apple’s next CEO, is up against a major challenge: retaining top talent during a time of historic turnover. Read more.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-22T11:31:22Z"
+    }
+  ],
+  "2026-04-30": [
+    {
+      "title": "Apple earnings become sideshow with new CEO ready to grab reins",
+      "description": "Apple Inc. investors will be largely looking past reported earnings and seeking clues to incoming CEO John Ternus’ strategic plans. Read now",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-30T18:44:32Z"
+    }
+  ],
+  "2026-05-07": [
+    {
+      "title": "Rave Sues Apple in Five Countries Over App Store Removal",
+      "description": "Alleges Antitrust Violations in U.S., Canada, Brazil, the Netherlands and Russia to Restore Access for Users and Defend Fair Competition for App Developers Alleges Apple Acted to Stop Rave from Competing with Apple’s Own Co-Viewing App Rave Launches Proprieta…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-07T15:04:07Z"
+    }
+  ],
+  "2026-05-11": [
+    {
+      "title": "Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap",
+      "description": "",
+      "source": "Bloomberg",
+      "publishedAt": "2026-05-11T17:55:47Z"
+    }
+  ],
+  "2026-05-14": [
+    {
+      "title": "Gurman Reports that OpenAI Is Unhappy With Apple Deal",
+      "description": "",
+      "source": "Bloomberg",
+      "publishedAt": "2026-05-14T18:27:50Z"
+    }
+  ]
 }

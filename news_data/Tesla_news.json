@@ -1,78 +1,86 @@
 {
-    "2026-04-13": [
-        {
-            "title": "Ninepoint Partners Launching Expanded Suite of Single-Stock ETFs",
-            "description": "New TSX listings include leveraged ETFs on NVIDIA, Tesla and Celestica, plus leveraged and non-leveraged ETFs for Constellation Software TORONTO, April 13, 2026 (GLOBE NEWSWIRE) — Ninepoint Partners LP, one of Canada’s leading independent investment managers,…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-13T11:33:05Z"
-        }
-    ],
-    "2026-04-15": [
-        {
-            "title": "Tesla’s Chinese Robot Rival Ramps up Global Push Ahead of IPO",
-            "description": "Unitree Robotics began selling its cheapest humanoid robot on Alibaba Group Holding Ltd.’s AliExpress on Wednesday, expanding its international presence in a white-hot race featuring heavyweight players like Elon Musk’s Tesla Inc.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-15T09:08:11Z"
-        }
-    ],
-    "2026-04-17": [
-        {
-            "title": "Tesla Cybertruck sales were inflated by a SpaceX buying spree",
-            "description": "Almost one in every five Cybertrucks registered during the fourth quarter were delivered from one part of Elon Musk’s sprawling business empire to another",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-17T13:10:16Z"
-        },
-        {
-            "title": "Singer d4vd arrested in killing of 14-year-old Celeste Rivas Hernandez",
-            "description": "Singer d4vd has been arrested on suspicion of killing a 14-year-old girl whose decomposed body was found last year in an apparently abandoned Tesla registered to him that was towed from the Hollywood Hills, police said Thursday.",
-            "source": "CNN",
-            "publishedAt": "2026-04-17T01:10:43Z"
-        }
-    ],
-    "2026-04-22": [
-        {
-            "title": "Tesla’s first-quarter earnings beat Wall Street expectations",
-            "description": "Tesla Inc. reported first-quarter earnings that beat Wall Street’s estimates, a sign profitability is holding up for the EV-maker. Read more",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-22T21:25:28Z"
-        },
-        {
-            "title": "Tesla’s Quiet Moneymaker, Its Battery Business, Suddenly Stalls",
-            "description": "The company’s energy storage sales saw rapid growth, until an unexpected slowdown this year.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-22T11:21:37Z"
-        }
-    ],
-    "2026-04-23": [
-        {
-            "title": "Tesla Boosts Spending Plan to $25 Billion for AI, Robot Push",
-            "description": "Tesla Inc. anticipates billions of dollars in additional spending this year to support Elon Musk’s ambitions to transform the electric vehicle pioneer into an artificial intelligence and robotics company.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-23T09:51:26Z"
-        }
-    ],
-    "2026-04-24": [
-        {
-            "title": "Musk Says Tesla Has Begun Producing Its Cybercab Robotaxi",
-            "description": "The two-door, two-seat sedan was unveiled two years ago without a steering wheel or pedals — something which would require certain exemptions from US regulators for mass production",
-            "source": "Bloomberg",
-            "publishedAt": "2026-04-24T10:15:59Z"
-        }
-    ],
-    "2026-04-30": [
-        {
-            "title": "The Dawn Project Report to Congress: Tesla’s Self-Driving Software Has Been Involved in 59 Deaths, Urgent Regulatory Reform Needed",
-            "description": "Public safety group delivers report documenting Tesla Full Self-Driving failures and calls for three specific regulatory reforms SANTA BARBARA, Calif., April 30, 2026 (GLOBE NEWSWIRE) — The Dawn Project today delivered a report to members of Congress and the …",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-30T17:02:58Z"
-        }
-    ],
-    "2026-05-07": [
-        {
-            "title": "BYD, Tesla may face import caps as Canada works out China EV quota",
-            "description": "Canadian government officials are debating how to divide up the new low-tariff quota for Chinese-made electric vehicles. Find out more here",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-07T16:46:18Z"
-        }
-    ]
+  "2026-04-13": [
+    {
+      "title": "Ninepoint Partners Launching Expanded Suite of Single-Stock ETFs",
+      "description": "New TSX listings include leveraged ETFs on NVIDIA, Tesla and Celestica, plus leveraged and non-leveraged ETFs for Constellation Software TORONTO, April 13, 2026 (GLOBE NEWSWIRE) — Ninepoint Partners LP, one of Canada’s leading independent investment managers,…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-13T11:33:05Z"
+    }
+  ],
+  "2026-04-15": [
+    {
+      "title": "Tesla’s Chinese Robot Rival Ramps up Global Push Ahead of IPO",
+      "description": "Unitree Robotics began selling its cheapest humanoid robot on Alibaba Group Holding Ltd.’s AliExpress on Wednesday, expanding its international presence in a white-hot race featuring heavyweight players like Elon Musk’s Tesla Inc.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-15T09:08:11Z"
+    }
+  ],
+  "2026-04-17": [
+    {
+      "title": "Tesla Cybertruck sales were inflated by a SpaceX buying spree",
+      "description": "Almost one in every five Cybertrucks registered during the fourth quarter were delivered from one part of Elon Musk’s sprawling business empire to another",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-17T13:10:16Z"
+    },
+    {
+      "title": "Singer d4vd arrested in killing of 14-year-old Celeste Rivas Hernandez",
+      "description": "Singer d4vd has been arrested on suspicion of killing a 14-year-old girl whose decomposed body was found last year in an apparently abandoned Tesla registered to him that was towed from the Hollywood Hills, police said Thursday.",
+      "source": "CNN",
+      "publishedAt": "2026-04-17T01:10:43Z"
+    }
+  ],
+  "2026-04-22": [
+    {
+      "title": "Tesla’s first-quarter earnings beat Wall Street expectations",
+      "description": "Tesla Inc. reported first-quarter earnings that beat Wall Street’s estimates, a sign profitability is holding up for the EV-maker. Read more",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-22T21:25:28Z"
+    },
+    {
+      "title": "Tesla’s Quiet Moneymaker, Its Battery Business, Suddenly Stalls",
+      "description": "The company’s energy storage sales saw rapid growth, until an unexpected slowdown this year.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-22T11:21:37Z"
+    }
+  ],
+  "2026-04-23": [
+    {
+      "title": "Tesla Boosts Spending Plan to $25 Billion for AI, Robot Push",
+      "description": "Tesla Inc. anticipates billions of dollars in additional spending this year to support Elon Musk’s ambitions to transform the electric vehicle pioneer into an artificial intelligence and robotics company.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-23T09:51:26Z"
+    }
+  ],
+  "2026-04-24": [
+    {
+      "title": "Musk Says Tesla Has Begun Producing Its Cybercab Robotaxi",
+      "description": "The two-door, two-seat sedan was unveiled two years ago without a steering wheel or pedals — something which would require certain exemptions from US regulators for mass production",
+      "source": "Bloomberg",
+      "publishedAt": "2026-04-24T10:15:59Z"
+    }
+  ],
+  "2026-04-30": [
+    {
+      "title": "The Dawn Project Report to Congress: Tesla’s Self-Driving Software Has Been Involved in 59 Deaths, Urgent Regulatory Reform Needed",
+      "description": "Public safety group delivers report documenting Tesla Full Self-Driving failures and calls for three specific regulatory reforms SANTA BARBARA, Calif., April 30, 2026 (GLOBE NEWSWIRE) — The Dawn Project today delivered a report to members of Congress and the …",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-30T17:02:58Z"
+    }
+  ],
+  "2026-05-07": [
+    {
+      "title": "BYD, Tesla may face import caps as Canada works out China EV quota",
+      "description": "Canadian government officials are debating how to divide up the new low-tariff quota for Chinese-made electric vehicles. Find out more here",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-07T16:46:18Z"
+    }
+  ],
+  "2026-05-13": [
+    {
+      "title": "American, German Car Brands Fail Inspection at Much Higher Rates Than Japanese Vehicles",
+      "description": "EV reliability problem lies with Tesla manufacturing flaws, skewing EV inspection failures up TORONTO, Ontario — Used-car shoppers in Canada commonly judge reliability by a specific signal — brand prestige, price tag, fuel type, or mileage, but new data shows…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-13T10:04:51Z"
+    }
+  ]
 }

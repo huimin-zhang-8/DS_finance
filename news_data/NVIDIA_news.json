@@ -1,132 +1,156 @@
 {
-    "2026-04-09": [
-        {
-            "title": "Nvidia shares near level where technical traders see a breakout",
-            "description": "After months of sluggish returns, Nvidia Corp.’s stock is rallying again and close to breaking out of its narrow trading range. Read here",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-09T16:06:58Z"
-        }
-    ],
-    "2026-04-10": [
-        {
-            "title": "China AI Firm Discloses $92 Million of Banned Nvidia Chip Servers to Beijing",
-            "description": "Hours after the United States charged a Super Micro Computer Inc. co-founder with illegally smuggling billions of dollars’ worth of Nvidia Corp. AI chips to China, shares of a little-known Shenzhen-based computing company plummeted by the daily limit of 20%.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-10T06:15:46Z"
-        }
-    ],
-    "2026-04-13": [
-        {
-            "title": "Dell, HP Inc. shares jump on Nvidia acquisition speculation report",
-            "description": "Shares of Dell Technologies Inc. and HP Inc. jumped after a report that Nvidia Corp. was seeking an acquisition. Find out more here",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-13T17:02:01Z"
-        },
-        {
-            "title": "Ninepoint Partners Launching Expanded Suite of Single-Stock ETFs",
-            "description": "New TSX listings include leveraged ETFs on NVIDIA, Tesla and Celestica, plus leveraged and non-leveraged ETFs for Constellation Software TORONTO, April 13, 2026 (GLOBE NEWSWIRE) — Ninepoint Partners LP, one of Canada’s leading independent investment managers,…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-13T11:33:05Z"
-        }
-    ],
-    "2026-04-14": [
-        {
-            "title": "IQM Advances AI-Driven Agentic Calibration, Opening Quantum Computing to the Enterprise With NVIDIA Ising",
-            "description": "IQM demonstrates how agentic calibration removes manual bottlenecks, making quantum computers ready for AI factories and high-performance computing environments. The solution is open and transparent — built on the NVIDIA Ising open family of AI models for qua…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-14T14:03:05Z"
-        },
-        {
-            "title": "Primitive Launches the Complete AI Agent Operating System for Financial Services",
-            "description": "Backed by Fin Capital and Pelion Venture Partners, Primitive is part of leading global startup programs including NVIDIA Inception, Microsoft for Startups, and Google for Startups Salt Lake City, Utah, April 14, 2026 (GLOBE NEWSWIRE) — Primitive launches toda…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-14T12:05:15Z"
-        }
-    ],
-    "2026-04-16": [
-        {
-            "title": "Canadian quantum company Xanadu soars to $16 billion valuation after Nvidia release",
-            "description": "Xanadu is now one of Canada’s most valuable publicly-traded tech companies, joining the likes of Shopify and Thomson Reuters. Read here now",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-16T19:12:07Z"
-        },
-        {
-            "title": "Nvidia’s Huang Says Mythos Shows Need for US-China AI Dialogue",
-            "description": "Nvidia Corp. Chief Executive Officer Jensen Huang said that Anthropic PBC’s Mythos breakthrough shows that the US should seek greater cooperation with China so artificial intelligence researchers in the world’s two largest economies can agree on how to safely…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-16T04:59:34Z"
-        }
-    ],
-    "2026-04-17": [
-        {
-            "title": "This TSX stock soared over 400% with help from Nvidia. Where will it go from here?",
-            "description": "The Week in Stocks: Where tech giant earnings may be headed, top energy picks to navigate the reopening of the Strait of Hormuz and more.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-17T22:18:24Z"
-        }
-    ],
-    "2026-04-21": [
-        {
-            "title": "Victory Giant Surges in Debut After Biggest Hong Kong Listing This Year",
-            "description": "Victory Giant Technology Huizhou Co., a Chinese supplier of Nvidia Corp., surged 50% in its Hong Kong trading debut after raising $2.6 billion in the city’s largest listing in seven months.",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-21T10:07:50Z"
-        }
-    ],
-    "2026-04-24": [
-        {
-            "title": "Nvidia breakout sends chip giant to first record since October",
-            "description": "Nvidia Corp. shares rose to their first record in months on Friday, the latest sign of improving momentum at the leader in AI chips. Read on",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-24T21:00:08Z"
-        }
-    ],
-    "2026-04-27": [
-        {
-            "title": "Datavault AI Announces Execution of Binding Term Sheet for $120 Million Cash Contribution From Scilex Holding Company to Fund 100-City GPU Expansion of Quantum-Ready SanQtum Platform",
-            "description": "Combined with the anticipated sale of the BTC and Receivable collections, Datavault AI projects $200M+ infusion of cash without equity dilution. Datavault AI has previously secured and in stock of Nvidia GPUs that have a current market value of $1.2 billion t…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-27T12:52:43Z"
-        }
-    ],
-    "2026-04-28": [
-        {
-            "title": "Vultr Deploys NVIDIA Nemotron 3 Nano Omni to Streamline Multimodal Enterprise Agent Systems",
-            "description": "The open, multimodal model that enables enterprise agents to complete tasks faster, more accurately, and at a lower cost WEST PALM BEACH, Fla. — Vultr, the world’s largest privately held cloud infrastructure company, today expands its ongoing collaboration wi…",
-            "source": "Financial Post",
-            "publishedAt": "2026-04-28T16:03:18Z"
-        }
-    ],
-    "2026-04-29": [
-        {
-            "title": "Nvidia-tied data centre raises $4.59 billion from junk-bond sale",
-            "description": "An entity backed by asset manager Tract Capital Management LP and Fleet Data Centers I LP sold the five-year notes at 99 cents on the dollar to yield 6.74%",
-            "source": "Bloomberg",
-            "publishedAt": "2026-04-29T03:55:52Z"
-        }
-    ],
-    "2026-05-01": [
-        {
-            "title": "Nvidia, Microsoft, Amazon expand classified military AI use",
-            "description": "The Pentagon has struck agreements with more tech companies for expanded use of advanced AI tools on classified military networks. Read on",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-01T19:09:04Z"
-        }
-    ],
-    "2026-05-03": [
-        {
-            "title": "Nvidia’s push into physical AI sparks rally in Asian partners",
-            "description": "Nvidia's expansion into physical AI boosts Asian partners, driving stock rallies and highlighting the region's critical role in AI supply chains.",
-            "source": "Bloomberg",
-            "publishedAt": "2026-05-03T05:22:19Z"
-        }
-    ],
-    "2026-05-06": [
-        {
-            "title": "Nvidia stock falls behind as Big Tech rivals enter its territory",
-            "description": "Nvidia’s grip on the AI processor market is seen as increasingly under threat from other chipmakers and also its biggest customers. Read on",
-            "source": "Financial Post",
-            "publishedAt": "2026-05-06T16:29:07Z"
-        }
-    ]
+  "2026-04-09": [
+    {
+      "title": "Nvidia shares near level where technical traders see a breakout",
+      "description": "After months of sluggish returns, Nvidia Corp.’s stock is rallying again and close to breaking out of its narrow trading range. Read here",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-09T16:06:58Z"
+    }
+  ],
+  "2026-04-10": [
+    {
+      "title": "China AI Firm Discloses $92 Million of Banned Nvidia Chip Servers to Beijing",
+      "description": "Hours after the United States charged a Super Micro Computer Inc. co-founder with illegally smuggling billions of dollars’ worth of Nvidia Corp. AI chips to China, shares of a little-known Shenzhen-based computing company plummeted by the daily limit of 20%.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-10T06:15:46Z"
+    }
+  ],
+  "2026-04-13": [
+    {
+      "title": "Dell, HP Inc. shares jump on Nvidia acquisition speculation report",
+      "description": "Shares of Dell Technologies Inc. and HP Inc. jumped after a report that Nvidia Corp. was seeking an acquisition. Find out more here",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-13T17:02:01Z"
+    },
+    {
+      "title": "Ninepoint Partners Launching Expanded Suite of Single-Stock ETFs",
+      "description": "New TSX listings include leveraged ETFs on NVIDIA, Tesla and Celestica, plus leveraged and non-leveraged ETFs for Constellation Software TORONTO, April 13, 2026 (GLOBE NEWSWIRE) — Ninepoint Partners LP, one of Canada’s leading independent investment managers,…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-13T11:33:05Z"
+    }
+  ],
+  "2026-04-14": [
+    {
+      "title": "IQM Advances AI-Driven Agentic Calibration, Opening Quantum Computing to the Enterprise With NVIDIA Ising",
+      "description": "IQM demonstrates how agentic calibration removes manual bottlenecks, making quantum computers ready for AI factories and high-performance computing environments. The solution is open and transparent — built on the NVIDIA Ising open family of AI models for qua…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-14T14:03:05Z"
+    },
+    {
+      "title": "Primitive Launches the Complete AI Agent Operating System for Financial Services",
+      "description": "Backed by Fin Capital and Pelion Venture Partners, Primitive is part of leading global startup programs including NVIDIA Inception, Microsoft for Startups, and Google for Startups Salt Lake City, Utah, April 14, 2026 (GLOBE NEWSWIRE) — Primitive launches toda…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-14T12:05:15Z"
+    }
+  ],
+  "2026-04-16": [
+    {
+      "title": "Canadian quantum company Xanadu soars to $16 billion valuation after Nvidia release",
+      "description": "Xanadu is now one of Canada’s most valuable publicly-traded tech companies, joining the likes of Shopify and Thomson Reuters. Read here now",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-16T19:12:07Z"
+    },
+    {
+      "title": "Nvidia’s Huang Says Mythos Shows Need for US-China AI Dialogue",
+      "description": "Nvidia Corp. Chief Executive Officer Jensen Huang said that Anthropic PBC’s Mythos breakthrough shows that the US should seek greater cooperation with China so artificial intelligence researchers in the world’s two largest economies can agree on how to safely…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-16T04:59:34Z"
+    }
+  ],
+  "2026-04-17": [
+    {
+      "title": "This TSX stock soared over 400% with help from Nvidia. Where will it go from here?",
+      "description": "The Week in Stocks: Where tech giant earnings may be headed, top energy picks to navigate the reopening of the Strait of Hormuz and more.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-17T22:18:24Z"
+    }
+  ],
+  "2026-04-21": [
+    {
+      "title": "Victory Giant Surges in Debut After Biggest Hong Kong Listing This Year",
+      "description": "Victory Giant Technology Huizhou Co., a Chinese supplier of Nvidia Corp., surged 50% in its Hong Kong trading debut after raising $2.6 billion in the city’s largest listing in seven months.",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-21T10:07:50Z"
+    }
+  ],
+  "2026-04-24": [
+    {
+      "title": "Nvidia breakout sends chip giant to first record since October",
+      "description": "Nvidia Corp. shares rose to their first record in months on Friday, the latest sign of improving momentum at the leader in AI chips. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-24T21:00:08Z"
+    }
+  ],
+  "2026-04-27": [
+    {
+      "title": "Datavault AI Announces Execution of Binding Term Sheet for $120 Million Cash Contribution From Scilex Holding Company to Fund 100-City GPU Expansion of Quantum-Ready SanQtum Platform",
+      "description": "Combined with the anticipated sale of the BTC and Receivable collections, Datavault AI projects $200M+ infusion of cash without equity dilution. Datavault AI has previously secured and in stock of Nvidia GPUs that have a current market value of $1.2 billion t…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-27T12:52:43Z"
+    }
+  ],
+  "2026-04-28": [
+    {
+      "title": "Vultr Deploys NVIDIA Nemotron 3 Nano Omni to Streamline Multimodal Enterprise Agent Systems",
+      "description": "The open, multimodal model that enables enterprise agents to complete tasks faster, more accurately, and at a lower cost WEST PALM BEACH, Fla. — Vultr, the world’s largest privately held cloud infrastructure company, today expands its ongoing collaboration wi…",
+      "source": "Financial Post",
+      "publishedAt": "2026-04-28T16:03:18Z"
+    }
+  ],
+  "2026-04-29": [
+    {
+      "title": "Nvidia-tied data centre raises $4.59 billion from junk-bond sale",
+      "description": "An entity backed by asset manager Tract Capital Management LP and Fleet Data Centers I LP sold the five-year notes at 99 cents on the dollar to yield 6.74%",
+      "source": "Bloomberg",
+      "publishedAt": "2026-04-29T03:55:52Z"
+    }
+  ],
+  "2026-05-01": [
+    {
+      "title": "Nvidia, Microsoft, Amazon expand classified military AI use",
+      "description": "The Pentagon has struck agreements with more tech companies for expanded use of advanced AI tools on classified military networks. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-01T19:09:04Z"
+    }
+  ],
+  "2026-05-03": [
+    {
+      "title": "Nvidia’s push into physical AI sparks rally in Asian partners",
+      "description": "Nvidia's expansion into physical AI boosts Asian partners, driving stock rallies and highlighting the region's critical role in AI supply chains.",
+      "source": "Bloomberg",
+      "publishedAt": "2026-05-03T05:22:19Z"
+    }
+  ],
+  "2026-05-06": [
+    {
+      "title": "Nvidia stock falls behind as Big Tech rivals enter its territory",
+      "description": "Nvidia’s grip on the AI processor market is seen as increasingly under threat from other chipmakers and also its biggest customers. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-06T16:29:07Z"
+    }
+  ],
+  "2026-05-11": [
+    {
+      "title": "Nvidia, chipmakers lift stocks as advance defies war jitters",
+      "description": "U.S. equities resumed advancing Monday, as strong earnings reports spurred bullish Wall Street strategists to raise their targets. Read on",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-11T14:27:05Z"
+    }
+  ],
+  "2026-05-14": [
+    {
+      "title": "Early Nvidia Investor Backs Startup to Tap Idle Grid Power",
+      "description": "A startup working to unlock excess power grid capacity for data centers raised $64 million as utilities and hyperscalers race to ease an energy crunch constraining the build-out of artificial intelligence.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-14T12:39:34Z"
+    }
+  ],
+  "2026-05-15": [
+    {
+      "title": "SalesCloser Deepens Conversational AI Moat with Dedicated GPU Inference Cluster, Enabling Custom Model Fine-Tuning, Agentic Workflows, and Regulated-Industry Readiness",
+      "description": "Owned AI inference layer, powered by NVIDIA Blackwell-class GPUs, creates structural product differentiation supporting the company’s technological moat Vancouver, BC, May 15, 2026 (GLOBE NEWSWIRE) — SalesCloser Technologies Ltd. (“SalesCloser” or the “Compan…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-15T20:57:09Z"
+    }
+  ]
 }

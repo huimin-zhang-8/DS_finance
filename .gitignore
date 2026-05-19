@@ -6,3 +6,4 @@ companies_historical_data/*
 bert_results/*
 *.csv
 old_news_data/*
+*v*.ipynb
