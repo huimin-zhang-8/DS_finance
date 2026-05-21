@@ -1,0 +1,11 @@
+company,symbol,classification,predicted_price,predicted_return,sentiment_score,similar_companies,final_score,recommendation
+Apple,AAPL,Sell,299.93,-0.87,0.786,[],-0.2339,SELL 🔴
+Microsoft,MSFT,Sell,418.52,0.4,0.3,[],-0.3111,SELL 🔴
+Amazon,AMZN,Hold,257.77,-2.27,-0.05,[],-0.0919,HOLD 🟡
+Alphabet,GOOGL,Hold,383.41,-1.15,0.25,[],0.0223,HOLD 🟡
+Meta,META,Hold,601.48,0.73,0.25,[],0.0882,HOLD 🟡
+Tesla,TSLA,Buy,411.44,-0.68,0.083,[],0.3971,BUY 🟢
+NVIDIA,NVDA,Hold,218.97,0.04,0.0,[],0.0013,HOLD 🟡
+Samsung,005930.KS,Buy,289805.53,-3.24,0.15,[],0.3242,BUY 🟢
+Tencent,TCEHY,Buy,57.44,2.47,0.0,[],0.4866,BUY 🟢
+Alibaba,BABA,Sell,130.06,0.8,-0.154,[],-0.4106,SELL 🔴

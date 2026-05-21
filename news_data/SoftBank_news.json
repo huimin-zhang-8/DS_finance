@@ -116,5 +116,13 @@
       "source": "The Wall Street Journal",
       "publishedAt": "2026-05-13T12:23:00Z"
     }
+  ],
+  "2026-05-20": [
+    {
+      "title": "Tether Buys Out SoftBank Stake in Bitcoin Treasury Firm",
+      "description": "Tether has bought out SoftBank Group Inc.’s ownership in the digital-asset treasury company Twenty One Capital Inc., adding to its control over the Bitcoin accumulator as it seeks to merge the firm with two other businesses.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-20T13:43:58Z"
+    }
   ]
 }
