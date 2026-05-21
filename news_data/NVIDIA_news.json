@@ -152,5 +152,19 @@
       "source": "Financial Post",
       "publishedAt": "2026-05-15T20:57:09Z"
     }
+  ],
+  "2026-05-20": [
+    {
+      "title": "Stocks Extend Drop Before Nvidia, Bonds Hold Loss: Markets Wrap",
+      "description": "Global equities headed for their longest losing streak in more than two months as mounting inflation concerns drove bond yields higher, pressuring stocks and prompting investors to rethink valuations after a record-breaking rally.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-20T04:05:56Z"
+    },
+    {
+      "title": "Nvidia earnings can affirm chip stock rally or spur market chaos",
+      "description": "Nvidia’s earnings have a chance to confirm that the AI rally has room to run — or add another brick to investors’ wall of worry. Read more.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-20T11:42:30Z"
+    }
   ]
 }
