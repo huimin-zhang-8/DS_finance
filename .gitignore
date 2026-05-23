@@ -6,3 +6,5 @@ companies_historical_data/*
 old_news_data/*
 *v*.ipynb
 bert_results/*
+_old/*
+*/__pycache__/*
