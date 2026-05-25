@@ -176,12 +176,16 @@ Utile pour tester le pipeline rapidement sur les 5 premières entreprises.
 | Colonne | Description |
 |---|---|
 | `company` | Nom de l'entreprise |
-| `recommendation` | BUY / HOLD / SELL |
-| `final_score` | Score agrégé entre -1 et +1 |
+| `symbol` | Symbole boursier |
 | `classification` | Signal Buy/Hold/Sell du modèle de classification |
+| `predicted_price` | Prix prédit à J+1 (en devise locale) |
 | `predicted_return` | Rendement prédit à J+1 (en %) |
+| `today_news_titles` | Liste des titres d'articles du jour (liste vide si aucune news) |
+| `today_news_count` | Nombre d'articles du jour |
 | `sentiment_score` | Score de sentiment des news (-1 à +1) |
-| `similar_companies` | Entreprises du même cluster |
+| `similar_companies` | Liste des entreprises appartenant au même cluster |
+| `final_score` | Score agrégé entre -1 et +1 |
+| `recommendation` | Recommandation finale : BUY / HOLD / SELL |
 
 **`dashboard_YYYY-MM-DD.png`** — graphique visuel des scores par entreprise.
 
