@@ -176,7 +176,7 @@ Utile pour tester le pipeline rapidement sur les 5 premières entreprises.
 | Colonne | Description |
 |---|---|
 | `company` | Nom de l'entreprise |
-| `recommendation` | BUY 🟢 / HOLD 🟡 / SELL 🔴 |
+| `recommendation` | BUY / HOLD / SELL |
 | `final_score` | Score agrégé entre -1 et +1 |
 | `classification` | Signal Buy/Hold/Sell du modèle de classification |
 | `predicted_return` | Rendement prédit à J+1 (en %) |
