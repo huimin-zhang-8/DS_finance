@@ -99,6 +99,8 @@ models/
 └── best_model_ProsusAI_finbert/     ← FinBERT fine-tuné (généré par TP7)
 ```
 
+Ce dossier n'a pas été push sur GitHub par soucis d'espace. 
+
 ### `outputs/`
 Tous les graphiques et fichiers de résultats générés par la pipeline.
 

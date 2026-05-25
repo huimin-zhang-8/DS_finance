@@ -1,0 +1,11 @@
+company,symbol,classification,predicted_price,predicted_return,today_news_titles,today_news_count,sentiment_score,similar_companies,final_score,recommendation
+Apple,AAPL,Sell,303.93,-1.58,[],0,-0.667,['NVIDIA'],-0.6222,SELL
+Visa,V,Sell,329.31,0.13,[],0,0.0,"['Microsoft', 'Amazon', 'Alphabet', 'Meta', 'Tencent', 'Oracle', 'Adobe', 'Netflix', 'AMD', 'Qualcomm', 'Cisco', 'JP Morgan', 'Goldman Sachs', 'ASML', 'ICBC', 'SoftBank']",-0.3954,SELL
+Samsung,005930.KS,Sell,286597.53,-2.02,[],0,0.667,[],-0.3039,SELL
+Microsoft,MSFT,Sell,418.7,0.03,[],0,0.4,"['Amazon', 'Alphabet', 'Meta', 'Tencent', 'Oracle', 'Adobe', 'Netflix', 'AMD', 'Qualcomm', 'Cisco', 'JP Morgan', 'Goldman Sachs', 'Visa', 'ASML', 'ICBC', 'SoftBank']",-0.2989,SELL
+SoftBank,9984.T,Hold,6541.44,-3.19,[],0,0.0,"['Microsoft', 'Amazon', 'Alphabet', 'Meta', 'Tencent', 'Oracle', 'Adobe', 'Netflix', 'AMD', 'Qualcomm', 'Cisco', 'JP Morgan', 'Goldman Sachs', 'Visa', 'ASML', 'ICBC']",-0.1117,HOLD
+Shell,SHEL.L,Hold,3197.03,-0.25,[],0,0.0,"['Alibaba', 'IBM', 'Sony', 'Johnson & Johnson', 'Pfizer', 'ExxonMobil', 'SAP', 'Siemens', 'Louis Vuitton', 'TotalEnergies', 'Baidu', 'JD', 'BYD', 'Toyota', 'Nintendo', 'Reliance Industries', 'Tata Consultancy Services']",-0.0087,HOLD
+Toyota,TM,Hold,189.89,0.43,[],0,0.667,"['Alibaba', 'IBM', 'Sony', 'Johnson & Johnson', 'Pfizer', 'ExxonMobil', 'SAP', 'Siemens', 'Louis Vuitton', 'TotalEnergies', 'Shell', 'Baidu', 'JD', 'BYD', 'Nintendo', 'Reliance Industries', 'Tata Consultancy Services']",0.1818,BUY
+Intel,INTC,Buy,118.89,-0.79,[],0,-0.25,['Tesla'],0.3098,BUY
+Meta,META,Buy,609.86,-0.07,[],0,-0.333,"['Microsoft', 'Amazon', 'Alphabet', 'Tencent', 'Oracle', 'Adobe', 'Netflix', 'AMD', 'Qualcomm', 'Cisco', 'JP Morgan', 'Goldman Sachs', 'Visa', 'ASML', 'ICBC', 'SoftBank']",0.3145,BUY
+SAP,SAP.DE,Buy,152.13,0.23,[],0,0.667,"['Alibaba', 'IBM', 'Sony', 'Johnson & Johnson', 'Pfizer', 'ExxonMobil', 'Siemens', 'Louis Vuitton', 'TotalEnergies', 'Shell', 'Baidu', 'JD', 'BYD', 'Toyota', 'Nintendo', 'Reliance Industries', 'Tata Consultancy Services']",0.5749,BUY

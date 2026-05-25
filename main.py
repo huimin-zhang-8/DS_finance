@@ -49,7 +49,9 @@ from src.tp2_clustering import (
 )
 from src.tp3_classification import (
     create_classification_labels, add_technical_indicators,
-    build_classification_dataset, run_all_classifiers,
+    build_classification_dataset, 
+    build_enhanced_classification_dataset,
+    run_all_classifiers,
     build_classification_comparison_table,
 )
 from src.tp4_regression import (
@@ -170,52 +172,59 @@ def step_classification(
     historical_data: dict,
 ) -> tuple[object, StandardScaler, list[str], list[dict]]:
     """
-    Entraîne les classifieurs et retourne le meilleur modèle.
-
-    Args:
-        historical_data: Données historiques des entreprises.
-
-    Returns:
-        (best_model, scaler, feature_names, all_results)
+    Entraîne les classifieurs sur le dataset baseline ET le dataset enrichi,
+    puis retourne le meilleur modèle global avec son scaler et ses features.
     """
     print("\n" + "="*60)
     print("ÉTAPE 3 — Classification Buy/Hold/Sell (TP3)")
     print("="*60)
 
-    X_train, X_test, y_train, y_test, X_df = build_classification_dataset(historical_data)
-    results = run_all_classifiers(X_train, y_train, X_test, y_test)
+    # ── Dataset baseline ─────────────────────────────────────────────────────
+    print("\n--- Dataset baseline ---")
+    X_train_b, X_test_b, y_train_b, y_test_b, X_df_b, scaler_b = build_classification_dataset(
+        historical_data
+    )
+    results_baseline = run_all_classifiers(X_train_b, y_train_b, X_test_b, y_test_b)
+
+    # ── Dataset enrichi ───────────────────────────────────────────────────────
+    print("\n--- Dataset enrichi (macro + temporel) ---")
+    X_train_e, X_test_e, y_train_e, y_test_e, X_df_e, scaler_e = build_enhanced_classification_dataset(
+        historical_data,
+        X_cls = X_df_b
+    )
+    results_enhanced = run_all_classifiers(X_train_e, y_train_e, X_test_e, y_test_e)
+
+    # ── Tableau comparatif des deux datasets ─────────────────────────────────
     build_classification_comparison_table(
-        baseline_results=results,
-        X_train=X_train,
-        X_test=X_test,
-        feature_names=X_df.columns.tolist(),
+        baseline_results=results_baseline,
+        enhanced_results=results_enhanced,
+        X_train=X_train_b,
+        X_test=X_test_b,
+        feature_names=X_df_b.columns.tolist(),
         output_dir="outputs/classification",
     )
 
-    best = max(results, key=lambda r: r["f1_macro"])
-    print(f"\n  → Meilleur classifieur : {best['name']} (F1={best['f1_macro']})")
+    # ── Sélection du meilleur modèle global ───────────────────────────────────
+    # Tagger chaque résultat avec son dataset et ses données associées
+    all_results = (
+        [(r, "baseline", X_train_b, X_test_b, X_df_b, y_train_b) for r in results_baseline]
+        + [(r, "enhanced", X_train_e, X_test_e, X_df_e, y_train_e) for r in results_enhanced]
+    )
+    best_entry = max(all_results, key=lambda x: x[0]["f1_macro"])
+    best_result, best_dataset, best_X_train, best_X_test, best_X_df, best_y_train = best_entry
 
-    # Re-fitter le scaler sur toutes les données pour l'inférence en production
-    scaler = StandardScaler()
-    frames = []
-    for df in historical_data.values():
-        try:
-            labeled   = create_classification_labels(df)
-            with_tech = add_technical_indicators(labeled)
-            with_tech.dropna(inplace=True)
-            drop = [c for c in ["Label", "Close Horizon", "horizon_return",
-                                  "Next Day Close", "Daily Return"] if c in with_tech.columns]
-            frames.append(with_tech.drop(columns=drop))
-        except Exception:
-            pass
-    if frames:
-        X_all = pd.concat(frames)
-        scaler.fit(X_all)
-        feature_names = X_all.columns.tolist()
-    else:
-        feature_names = X_df.columns.tolist()
+    print(f"\n  → Meilleur modèle global : {best_result['name']} "
+          f"sur dataset {best_dataset} (F1={best_result['f1_macro']})")
 
-    return best["model"], scaler, feature_names, results
+    # Prendre le scaler du dataset gagnant — déjà fitté dans tp3
+    scaler = scaler_e if best_dataset == "enhanced" else scaler_b
+    feature_names = best_X_df.columns.tolist()
+
+    # Stocker le dataset utilisé pour l'inférence dans aggregate_signals
+    best_result["dataset"] = best_dataset
+
+    all_results_flat = results_baseline + results_enhanced
+    return best_result["model"], scaler, feature_names, all_results_flat, best_dataset
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -507,8 +516,24 @@ def aggregate_signals(
 
     # ── 4. Signal de sentiment ────────────────────────────────────────────────
     sent_signal = 0.0
+    today = datetime.today().strftime("%Y-%m-%d")
+
+    # Titres des news du jour
+    today_articles = news_data.get(today, [])
+    result["today_news_titles"] = [a.get("title", "") for a in today_articles]
+    result["today_news_count"]  = len(today_articles)
+
     try:
-        sent_signal = compute_sentiment_signal(news_data, sentiment_model_path)
+        # Sentiment calculé uniquement sur les news du jour
+        # Fallback sur les 3 derniers jours si pas de news aujourd'hui
+        if today_articles:
+            today_news_only = {today: today_articles}
+        else:
+            # Prendre les 3 dates les plus récentes disponibles
+            sorted_dates = sorted(news_data.keys(), reverse=True)[:3]
+            today_news_only = {d: news_data[d] for d in sorted_dates}
+
+        sent_signal = compute_sentiment_signal(today_news_only, sentiment_model_path)
     except Exception:
         pass
     result["sentiment_score"] = sent_signal
@@ -528,11 +553,11 @@ def aggregate_signals(
         + WEIGHT_SENTIMENT    * sent_signal
     )
     if final_score > THRESHOLD_BUY:
-        recommendation = "BUY 🟢"
+        recommendation = "BUY"
     elif final_score < THRESHOLD_SELL:
-        recommendation = "SELL 🔴"
+        recommendation = "SELL"
     else:
-        recommendation = "HOLD 🟡"
+        recommendation = "HOLD"
 
     result["final_score"]    = round(float(final_score), 4)
     result["recommendation"] = recommendation
@@ -594,20 +619,36 @@ def run_daily_pipeline(
     out_path = os.path.join(output_dir, f"recommendations_{today}.csv")
     output_df.to_csv(out_path, index=False)
     print(f"\n✅ Recommandations exportées → {out_path}")
-    return output_df
 
+     # ── Export CSV réduit — 4 BUY, 2 HOLD, 4 SELL ───────────────────────────
+    df_filtered = output_df[pd.to_numeric(output_df["final_score"], errors="coerce").notna()].copy()
+    df_filtered["final_score"] = df_filtered["final_score"].astype(float)
+    df_small = select_dashboard_sample(df_filtered)
+
+    out_path_small = os.path.join(output_dir, f"recommendations_small_{today}.csv")
+    df_small.to_csv(out_path_small, index=False)
+    print(f"✅ Recommandations réduites exportées → {out_path_small}")
+
+    return output_df, df_small
+
+def select_dashboard_sample(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Sélectionne aléatoirement 4 BUY, 4 SELL et 2 HOLD pour le dashboard réduit.
+    """
+    top_buy  = df[df["recommendation"] == "BUY"].sample(
+        n=min(4, len(df[df["recommendation"] == "BUY"])),  random_state=42)
+    top_sell = df[df["recommendation"] == "SELL"].sample(
+        n=min(4, len(df[df["recommendation"] == "SELL"])), random_state=42)
+    top_hold = df[df["recommendation"] == "HOLD"].sample(
+        n=min(2, len(df[df["recommendation"] == "HOLD"])), random_state=42)
+    return pd.concat([top_sell, top_hold, top_buy]).sort_values("final_score", ascending=True)
 
 def plot_dashboard(
     recommendations_df: pd.DataFrame,
+    df_small: pd.DataFrame,
     output_dir: str = "outputs/recommendations",
 ) -> None:
-    """
-    Affiche un tableau de bord horizontal des scores agrégés par entreprise.
 
-    Args:
-        recommendations_df: DataFrame retourné par run_daily_pipeline.
-        output_dir:         Dossier de sauvegarde du graphique.
-    """
     df = recommendations_df.copy()
     df = df[pd.to_numeric(df["final_score"], errors="coerce").notna()]
     df["final_score"] = df["final_score"].astype(float)
@@ -620,35 +661,64 @@ def plot_dashboard(
         for r in df["recommendation"]
     ]
 
+    # ── Dashboard global ──────────────────────────────────────────────────────
     fig, ax = plt.subplots(figsize=(12, max(6, len(df) * 0.5)))
     bars = ax.barh(df["company"], df["final_score"], color=colors,
                    edgecolor="white", height=0.6)
-    ax.axvline(0,               color="black", linewidth=1)
-    ax.axvline(THRESHOLD_BUY,   color="green", linewidth=1, linestyle="--", alpha=0.5, label="Seuil BUY")
-    ax.axvline(THRESHOLD_SELL,  color="red",   linewidth=1, linestyle="--", alpha=0.5, label="Seuil SELL")
-
+    ax.axvline(0,              color="black", linewidth=1)
+    ax.axvline(THRESHOLD_BUY,  color="green", linewidth=1, linestyle="--", alpha=0.5, label="Seuil BUY")
+    ax.axvline(THRESHOLD_SELL, color="red",   linewidth=1, linestyle="--", alpha=0.5, label="Seuil SELL")
     for bar, rec in zip(bars, df["recommendation"]):
         ax.text(bar.get_width() + 0.01, bar.get_y() + bar.get_height() / 2,
                 str(rec), va="center", fontsize=9)
-
     ax.set_xlabel("Score agrégé")
     ax.set_title(f"Recommandations — {datetime.today().strftime('%Y-%m-%d')}")
     ax.legend()
     plt.tight_layout()
     os.makedirs(output_dir, exist_ok=True)
-    plt.savefig(os.path.join(output_dir, f"dashboard_{datetime.today().strftime('%Y-%m-%d')}.png"), dpi=100)
+    today = datetime.today().strftime("%Y-%m-%d")
+    plt.savefig(os.path.join(output_dir, f"dashboard_{today}.png"), dpi=100)
     plt.show()
 
+    # ── Dashboard réduit  ────────────────────────────
+    colors_small = [
+        "limegreen" if "BUY"  in str(r) else
+        "tomato"    if "SELL" in str(r) else
+        "gold"
+        for r in df_small["recommendation"]
+    ]
+    
+    fig, ax = plt.subplots(figsize=(10, 6))
+    bars = ax.barh(df_small["company"], df_small["final_score"],
+                   color=colors_small, edgecolor="white", height=0.6)
+    ax.axvline(0,              color="black", linewidth=1)
+    ax.axvline(THRESHOLD_BUY,  color="green", linewidth=1, linestyle="--", alpha=0.5, label="Seuil BUY")
+    ax.axvline(THRESHOLD_SELL, color="red",   linewidth=1, linestyle="--", alpha=0.5, label="Seuil SELL")
+    for bar, rec in zip(bars, df_small["recommendation"]):
+        ax.text(bar.get_width() + 0.01, bar.get_y() + bar.get_height() / 2,
+                str(rec), va="center", fontsize=9)
+    ax.set_xlabel("Score agrégé")
+    ax.set_title(f"Dashboard sur 10 entreprises — {datetime.today().strftime('%Y-%m-%d')}")
+    ax.legend()
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, f"dashboard_small_{today}.png"), dpi=100)
+    plt.show()
+
+    # ── Résumé console ────────────────────────────────────────────────────────
     print("\n=== Résumé final ===")
     cols = ["company", "recommendation", "final_score", "classification",
-            "predicted_return", "sentiment_score"]
+            "predicted_return", "sentiment_score", "today_news_count", "similar_companies"]
     available = [c for c in cols if c in recommendations_df.columns]
     print(recommendations_df[available].to_string(index=False))
 
+    print("\n=== News du jour par entreprise ===")
+    for _, row in recommendations_df.iterrows():
+        titles = row.get("today_news_titles", [])
+        if titles:
+            print(f"\n  {row['company']} ({row.get('today_news_count', 0)} articles) :")
+            for t in titles[:3]:
+                print(f"    • {t}")
 
-# ══════════════════════════════════════════════════════════════════════════════
-# POINT D'ENTRÉE
-# ══════════════════════════════════════════════════════════════════════════════
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Pipeline quotidien d'analyse des marchés")
@@ -675,8 +745,9 @@ def main() -> None:
     silhouette_df, kmeans_df, company_to_cluster = step_clustering(financial_ratios_df)
 
     # ── TP3 : Classification ─────────────────────────────────────────────────
-    cls_model, cls_scaler, cls_features, cls_results = step_classification(historical_data)
-
+    cls_model, cls_scaler, cls_features, cls_results, cls_best_dataset = step_classification(historical_data)
+    print(f"  → Dataset retenu pour l'inférence : {cls_best_dataset}")
+    
     # ── TP4 + TP5 : Régression ───────────────────────────────────────────────
     reg_model, all_ml_results = step_regression(
         companies, historical_data, company_to_cluster
@@ -693,7 +764,7 @@ def main() -> None:
 
     # ── Agrégation & Recommandations ─────────────────────────────────────────
     sentiment_path = finbert_path if os.path.exists(finbert_path) else FINBERT_MODEL_NAME
-    recommendations_df = run_daily_pipeline(
+    recommendations_df, df_small = run_daily_pipeline(
         companies=companies,
         cls_model=cls_model,
         cls_scaler=cls_scaler,
@@ -703,7 +774,7 @@ def main() -> None:
         all_news=all_news,
         sentiment_model_path=sentiment_path,
     )
-    plot_dashboard(recommendations_df)
+    plot_dashboard(recommendations_df, df_small)
 
 
 if __name__ == "__main__":

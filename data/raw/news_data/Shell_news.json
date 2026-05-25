@@ -944,5 +944,27 @@
       "source": "Financial Post",
       "publishedAt": "2026-05-20T09:20:26Z"
     }
+  ],
+  "2026-05-21": [
+    {
+      "title": "Transaction in Own Shares",
+      "description": "Transaction in Own Shares 20 May, 2026 • • • • • • • • • • • • • • • • Shell plc (the ‘Company’) announces that on 20 May, 2026 it purchased the following number of Shares for cancellation. Aggregated information on Shares purchased according to trading venue…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-21T08:52:50Z"
+    }
+  ],
+  "2026-05-22": [
+    {
+      "title": "Shell Set for Top Dutch Court Fight Over Call to Slash Emissions",
+      "description": "Shell Plc is set for a showdown with climate activists urging top Dutch judges to impose legally enforceable emissions cuts on Europe’s biggest oil and gas company to keep its net zero 2050 target on track.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-22T05:20:28Z"
+    },
+    {
+      "title": "Transaction in Own Shares",
+      "description": "Transaction in Own Shares 21 May, 2026 • • • • • • • • • • • • • • • • Shell plc (the ‘Company’) announces that on 21 May, 2026 it purchased the following number of Shares for cancellation. Aggregated information on Shares purchased according to trading venue…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-22T09:42:56Z"
+    }
   ]
 }

@@ -1,0 +1,11 @@
+Modèle,Dataset,Accuracy,F1-macro
+Random Forest,Enrichi,0.8361,0.8362
+Random Forest,Baseline,0.7618,0.7539
+XGBoost,Enrichi,0.7193,0.7136
+XGBoost,Baseline,0.6159,0.5877
+KNN,Enrichi,0.5251,0.5021
+KNN,Baseline,0.4257,0.3883
+Logistic Regression,Enrichi,0.4693,0.2896
+SVM (Linear),Enrichi,0.4683,0.2831
+Logistic Regression,Baseline,0.4579,0.2134
+SVM (Linear),Baseline,0.4576,0.2124

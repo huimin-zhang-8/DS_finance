@@ -160,5 +160,21 @@
       "source": "Financial Post",
       "publishedAt": "2026-05-18T11:02:32Z"
     }
+  ],
+  "2026-05-21": [
+    {
+      "title": "Shareholders Press Big Tech Over AI Energy Use and Climate Goals",
+      "description": "Activist investors want Amazon, Google and Meta to explain how they’ll reconcile power-hungry data centers with their pledges to cut emissions.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-21T10:27:30Z"
+    }
+  ],
+  "2026-05-22": [
+    {
+      "title": "Stop blaming young people for being unemployed, says Amazon's UK boss",
+      "description": "John Boumphrey says the education system \"isn't necessarily producing young people who are ready for work\".",
+      "source": "BBC News",
+      "publishedAt": "2026-05-22T00:15:26Z"
+    }
   ]
 }

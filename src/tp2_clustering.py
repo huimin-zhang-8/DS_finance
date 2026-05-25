@@ -12,6 +12,9 @@ import glob
 
 import numpy as np
 import pandas as pd
+
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import StandardScaler
@@ -88,6 +91,7 @@ def elbow_method(
     safe = title.replace(" ", "_").replace("—", "").strip("_")
     plt.savefig(os.path.join(output_dir, f"elbow_{safe}.png"), dpi=100)
     plt.show()
+    plt.close()
     return elbow_k
 
 
@@ -140,6 +144,7 @@ def do_kmeans_clustering(
     safe = title.replace(" ", "_").replace("—", "").strip("_")
     plt.savefig(os.path.join(output_dir, f"kmeans_tsne_{safe}.png"), dpi=100)
     plt.show()
+    plt.close()
     return result_df
 
 
@@ -186,6 +191,7 @@ def plot_dendrogram(
     safe = title.replace(" ", "_").replace("—", "").strip("_")
     plt.savefig(os.path.join(output_dir, f"dendrogram_{safe}.png"), dpi=100)
     plt.show()
+    plt.close()
     return linked, optimal_k
 
 
@@ -348,6 +354,7 @@ def do_dbscan_clustering(
     safe = title.replace(" ", "_").replace("—", "").strip("_")
     plt.savefig(os.path.join(output_dir, f"dbscan_tsne_{safe}.png"), dpi=100)
     plt.show()
+    plt.close()
     return best_labels
 
 

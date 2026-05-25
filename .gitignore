@@ -1,4 +1,3 @@
-*.pdf
 _pycache__/
 companies_news/*
 tp6_claude.ipynb
@@ -8,3 +7,5 @@ old_news_data/*
 bert_results/*
 _old/*
 */__pycache__/*
+models/*
+.vscode/*

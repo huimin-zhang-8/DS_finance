@@ -100,7 +100,7 @@ def finetune_model(
     training_args = TrainingArguments(
         output_dir=checkpoints_dir,
         eval_strategy="epoch",
-        save_strategy="epoch",
+        save_strategy="no",
         logging_strategy="epoch",
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,

@@ -332,6 +332,32 @@
       "description": "Meta has partnered with a network of mom and family influencers to spread the word about its teen safety tools and message that Instagram is safe for teens, according to a new tech watchdog report. The promotional push has come as Meta faces ongoing concerns …",
       "source": "CNN",
       "publishedAt": "2026-05-20T11:23:01Z"
+    },
+    {
+      "title": "Meta begins 8,000 global job cuts in AI efficiency push",
+      "description": "Meta Platforms Inc. is alerting thousands of employees that they’re being laid off, part of a previously announced restructuring. Read here",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-20T14:56:07Z"
+    },
+    {
+      "title": "Meta begins 8000 global job cuts in AI efficiency push",
+      "description": "Meta is axing roughly 8000 roles worldwide in its latest cost-cut push.",
+      "source": "The Washington Post",
+      "publishedAt": "2026-05-20T20:28:08Z"
+    }
+  ],
+  "2026-05-21": [
+    {
+      "title": "Meta settles school suit over social media, averting first trial",
+      "description": "Meta Platforms Inc. reached an agreement to settle a lawsuit alleging that addiction to Instagram upended learning across America. Read here",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-21T18:33:26Z"
+    },
+    {
+      "title": "Shareholders Press Big Tech Over AI Energy Use and Climate Goals",
+      "description": "Activist investors want Amazon, Google and Meta to explain how they’ll reconcile power-hungry data centers with their pledges to cut emissions.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-21T10:27:30Z"
     }
   ]
 }

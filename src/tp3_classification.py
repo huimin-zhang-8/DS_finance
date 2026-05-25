@@ -161,19 +161,21 @@ def build_classification_dataset(
     drop     = [c for c in _DROP_COLS if c in full_df.columns]
     X        = full_df.drop(columns=drop)
     y        = full_df["Label"]
-    X_scaled = StandardScaler().fit_transform(X)
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
 
     X_train, X_test, y_train, y_test = train_test_split(
         X_scaled, y, test_size=0.2, random_state=42, stratify=y
     )
     print(f"Dataset baseline — {full_df.shape} | Train {X_train.shape} | Test {X_test.shape}")
-    return X_train, X_test, y_train, y_test, X
+    return X_train, X_test, y_train, y_test, X, scaler
 
 
 def build_enhanced_classification_dataset(
     historical_data: dict[str, pd.DataFrame],
     start: str = START_DATE,
     end: str = END_DATE,
+    X_cls: pd.DataFrame = None,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, pd.DataFrame]:
     """
     Reconstruit le dataset avec features enrichies (macro + temporelles).
@@ -210,13 +212,15 @@ def build_enhanced_classification_dataset(
     drop     = [c for c in _DROP_COLS if c in full_df.columns]
     X        = full_df.drop(columns=drop)
     y        = full_df["Label"]
-    X_scaled = StandardScaler().fit_transform(X)
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
 
     X_train, X_test, y_train, y_test = train_test_split(
         X_scaled, y, test_size=0.2, random_state=42, stratify=y
     )
     print(f"Dataset enrichi — {full_df.shape} | Train {X_train.shape} | Test {X_test.shape}")
-    return X_train, X_test, y_train, y_test, X
+    print(f"\nNouvelles features ajoutées : {[c for c in X.columns if c not in X_cls.columns]}")
+    return X_train, X_test, y_train, y_test, X, scaler
 
 
 # ─── Gestion du déséquilibre des classes ─────────────────────────────────────
@@ -329,31 +333,37 @@ def run_all_classifiers(
     """
     configs = [
         (
-            XGBClassifier(eval_metric="mlogloss"),
-            {"n_estimators": [100, 200, 300], "max_depth": [2, 3, 4],
-             "learning_rate": [0.05, 0.1, 0.2]},
+            XGBClassifier(),
+            {"n_estimators": [100, 200, 300, 500], 
+             "max_depth": [2, 3, 4, 5],
+             "learning_rate": [0.01, 0.05, 0.1, 0.2]},
             "XGBoost",
         ),
         (
-            RandomForestClassifier(random_state=42),
-            {"n_estimators": [100, 200], "min_samples_leaf": [1, 5],
+            RandomForestClassifier(),
+            {"n_estimators": [100, 200, 300], 
+             "min_samples_leaf": [1, 5, 10],
              "max_features": ["sqrt", 0.5]},
             "Random Forest",
         ),
         (
             KNeighborsClassifier(n_jobs=-1),
-            {"n_neighbors": [5, 10, 20], "weights": ["uniform", "distance"],
-             "metric": ["euclidean", "manhattan"]},
+            {"n_neighbors": [3, 5, 10, 15], 
+             "weights": ["uniform", "distance"],
+             "metric": ["euclidean", "manhattan", "minkowski"]},
             "KNN",
         ),
         (
-            LogisticRegression(max_iter=1000),
-            {"C": [0.1, 1, 10], "penalty": ["l1", "l2"], "solver": ["liblinear", "saga"]},
+            LogisticRegression(max_iter=5000, tol=1e-4),
+            {"C": [0.01, 0.1, 1, 10, 100], 
+             "penalty": ["l1", "l2", "elasticnet"], 
+             "solver": ["lbfgs", "saga", "newton-cholesky"]},
             "Logistic Regression",
         ),
         (
-            LinearSVC(max_iter=2000),
-            {"C": [0.01, 0.1, 1.0, 10.0], "penalty": ["l1", "l2"]},
+            LinearSVC(max_iter=5000, tol=1e-4),
+            {"C": [0.001, 0.01, 0.1, 1.0, 10.0], 
+             "penalty": ["l1", "l2"]},
             "SVM (Linear)",
         ),
     ]
@@ -472,17 +482,6 @@ def build_classification_comparison_table(
         for r in enhanced_results:
             rows.append({"Modèle": r["name"], "Dataset": "Enrichi",
                          "Accuracy": round(r["accuracy"], 4), "F1-macro": r["f1_macro"]})
-            
-            # SHAP pour chaque modèle enrichi
-            if X_train is not None and X_test is not None and feature_names is not None:
-                run_shap(
-                    model_name=f"{r['name']} (Enrichi)",
-                    model=r["model"],
-                    X_train=X_train,
-                    X_test=X_test,
-                    feature_names=feature_names,
-                    output_dir=output_dir,
-                )
 
     df = pd.DataFrame(rows).sort_values("F1-macro", ascending=False).reset_index(drop=True)
     os.makedirs(output_dir, exist_ok=True)

@@ -1,0 +1,157 @@
+Entreprise,Cluster,Modèle,MAE,RMSE,MAPE
+Apple,3,XGBoost,10.61,15.25,3.94
+Apple,3,Random Forest,14.91,20.17,5.54
+Apple,3,KNN,23.41,28.33,8.9
+Apple,3,Ridge,2.68,3.67,1.08
+Microsoft,1,XGBoost,33.61,42.4,6.78
+Microsoft,1,Random Forest,33.85,42.42,6.84
+Microsoft,1,KNN,54.91,65.19,11.23
+Microsoft,1,Ridge,4.79,6.85,1.06
+Amazon,1,XGBoost,6.57,10.99,2.7
+Amazon,1,Random Forest,7.62,12.38,3.14
+Amazon,1,KNN,12.35,16.77,5.27
+Amazon,1,Ridge,3.19,4.3,1.4
+Alphabet,1,XGBoost,79.89,99.21,25.58
+Alphabet,1,Random Forest,76.86,95.81,24.58
+Alphabet,1,KNN,85.41,104.71,27.54
+Alphabet,1,Ridge,3.85,5.62,1.39
+Meta,1,XGBoost,19.22,26.81,2.73
+Meta,1,Random Forest,22.73,31.68,3.22
+Meta,1,KNN,62.63,79.5,8.88
+Meta,1,Ridge,10.08,14.79,1.5
+Tesla,2,XGBoost,11.61,15.78,2.91
+Tesla,2,Random Forest,12.29,16.81,3.05
+Tesla,2,KNN,31.08,37.44,7.85
+Tesla,2,Ridge,9.41,11.95,2.42
+NVIDIA,3,XGBoost,39.29,43.05,20.97
+NVIDIA,3,Random Forest,39.8,43.52,21.25
+NVIDIA,3,KNN,42.47,46.0,22.75
+NVIDIA,3,Ridge,3.08,3.99,1.69
+Tencent,1,XGBoost,7.15,9.43,9.2
+Tencent,1,Random Forest,7.98,10.43,10.27
+Tencent,1,KNN,10.23,12.28,13.45
+Tencent,1,Ridge,0.97,1.35,1.35
+Alibaba,0,XGBoost,4.12,5.77,2.75
+Alibaba,0,Random Forest,4.43,6.18,2.97
+Alibaba,0,KNN,9.94,12.56,6.62
+Alibaba,0,Ridge,2.93,4.05,2.03
+IBM,0,XGBoost,21.71,28.89,7.56
+IBM,0,Random Forest,23.42,30.92,8.16
+IBM,0,KNN,28.79,36.68,10.09
+IBM,0,Ridge,3.98,5.93,1.5
+Intel,2,XGBoost,6.2,16.86,7.9
+Intel,2,Random Forest,6.18,16.75,7.89
+Intel,2,KNN,7.43,17.0,11.47
+Intel,2,Ridge,1.46,2.62,3.11
+Oracle,1,XGBoost,34.46,50.31,13.83
+Oracle,1,Random Forest,37.98,54.34,15.32
+Oracle,1,KNN,47.04,62.31,19.77
+Oracle,1,Ridge,5.52,8.92,2.61
+Sony,0,XGBoost,1.64,2.3,5.93
+Sony,0,Random Forest,1.59,2.23,5.76
+Sony,0,KNN,2.27,2.88,8.42
+Sony,0,Ridge,0.36,0.48,1.43
+Adobe,1,XGBoost,15.95,24.01,5.98
+Adobe,1,Random Forest,20.64,32.17,7.83
+Adobe,1,KNN,31.39,40.92,11.29
+Adobe,1,Ridge,4.67,6.37,1.51
+Netflix,1,XGBoost,3.58,4.7,3.33
+Netflix,1,Random Forest,3.54,4.58,3.29
+Netflix,1,KNN,5.32,6.82,5.3
+Netflix,1,Ridge,1.53,2.24,1.46
+AMD,1,XGBoost,32.3,63.79,11.04
+AMD,1,Random Forest,34.21,66.1,11.78
+AMD,1,KNN,49.09,78.23,18.41
+AMD,1,Ridge,6.28,10.38,2.79
+Qualcomm,1,XGBoost,3.29,5.26,2.0
+Qualcomm,1,Random Forest,3.62,5.62,2.21
+Qualcomm,1,KNN,8.28,13.34,4.94
+Qualcomm,1,Ridge,2.78,4.64,1.69
+Cisco,1,XGBoost,13.63,17.11,16.94
+Cisco,1,Random Forest,14.07,17.46,17.53
+Cisco,1,KNN,15.72,18.87,19.77
+Cisco,1,Ridge,0.97,1.61,1.24
+JP Morgan,1,XGBoost,32.71,35.64,10.76
+JP Morgan,1,Random Forest,41.02,43.91,13.53
+JP Morgan,1,KNN,49.17,52.0,16.25
+JP Morgan,1,Ridge,3.06,4.08,1.02
+Goldman Sachs,1,XGBoost,172.62,197.57,20.21
+Goldman Sachs,1,Random Forest,177.35,202.58,20.77
+Goldman Sachs,1,KNN,212.64,237.03,25.11
+Goldman Sachs,1,Ridge,10.8,14.83,1.32
+Visa,1,XGBoost,4.41,5.77,1.32
+Visa,1,Random Forest,5.06,6.73,1.53
+Visa,1,KNN,10.68,13.47,3.19
+Visa,1,Ridge,3.31,4.73,1.0
+Johnson & Johnson,0,XGBoost,38.63,48.43,17.61
+Johnson & Johnson,0,Random Forest,38.57,48.37,17.58
+Johnson & Johnson,0,KNN,39.7,49.25,18.17
+Johnson & Johnson,0,Ridge,2.54,3.25,1.22
+Pfizer,0,XGBoost,0.29,0.39,1.18
+Pfizer,0,Random Forest,0.34,0.46,1.35
+Pfizer,0,KNN,0.62,0.79,2.5
+Pfizer,0,Ridge,0.28,0.38,1.13
+ExxonMobil,0,XGBoost,13.52,21.71,9.15
+ExxonMobil,0,Random Forest,13.75,22.03,9.32
+ExxonMobil,0,KNN,14.61,22.25,10.07
+ExxonMobil,0,Ridge,1.55,2.09,1.2
+ASML,1,XGBoost,112.06,175.78,9.64
+ASML,1,Random Forest,116.83,183.86,10.04
+ASML,1,KNN,130.98,195.49,11.63
+ASML,1,Ridge,18.24,25.56,1.91
+SAP,0,XGBoost,7.02,9.38,3.79
+SAP,0,Random Forest,7.71,10.07,4.17
+SAP,0,KNN,12.09,15.02,6.33
+SAP,0,Ridge,3.12,4.37,1.59
+Siemens,0,XGBoost,12.42,17.15,5.11
+Siemens,0,Random Forest,15.79,20.15,6.56
+Siemens,0,KNN,19.69,22.83,8.3
+Siemens,0,Ridge,3.2,4.62,1.39
+Louis Vuitton,0,XGBoost,15.08,19.45,3.13
+Louis Vuitton,0,Random Forest,19.33,24.74,4.04
+Louis Vuitton,0,KNN,24.24,29.46,4.99
+Louis Vuitton,0,Ridge,7.24,10.12,1.41
+TotalEnergies,0,XGBoost,3.98,7.49,5.48
+TotalEnergies,0,Random Forest,4.12,7.84,5.67
+TotalEnergies,0,KNN,4.7,7.88,6.81
+TotalEnergies,0,Ridge,0.64,0.91,1.05
+Shell,0,XGBoost,121.56,221.05,3.78
+Shell,0,Random Forest,121.59,221.15,3.79
+Shell,0,KNN,151.61,248.15,4.82
+Shell,0,Ridge,29.69,41.59,1.02
+Baidu,0,XGBoost,2.93,4.13,2.43
+Baidu,0,Random Forest,3.1,4.41,2.56
+Baidu,0,KNN,6.54,9.0,5.33
+Baidu,0,Ridge,2.69,3.92,2.23
+JD,0,XGBoost,0.5,0.65,1.64
+JD,0,Random Forest,0.62,0.77,2.05
+JD,0,KNN,1.56,1.85,5.24
+JD,0,Ridge,0.48,0.63,1.57
+BYD,0,XGBoost,0.31,0.42,2.23
+BYD,0,Random Forest,0.43,0.55,3.08
+BYD,0,KNN,0.96,1.15,6.98
+BYD,0,Ridge,0.26,0.35,1.9
+ICBC,1,XGBoost,1.05,1.16,16.95
+ICBC,1,Random Forest,0.9,1.02,14.54
+ICBC,1,KNN,0.91,1.02,14.64
+ICBC,1,Ridge,0.06,0.07,0.95
+Toyota,0,XGBoost,3.05,4.16,1.49
+Toyota,0,Random Forest,3.37,4.43,1.65
+Toyota,0,KNN,6.96,8.49,3.43
+Toyota,0,Ridge,2.71,3.76,1.34
+SoftBank,1,XGBoost,1449.87,1778.41,30.82
+SoftBank,1,Random Forest,1439.11,1766.84,30.58
+SoftBank,1,KNN,1706.74,2031.71,36.97
+SoftBank,1,Ridge,159.14,220.69,3.62
+Nintendo,0,XGBoost,0.87,1.25,4.25
+Nintendo,0,Random Forest,0.85,1.22,4.23
+Nintendo,0,KNN,1.51,1.86,7.62
+Nintendo,0,Ridge,0.35,0.45,1.93
+Reliance Industries,0,XGBoost,15.64,20.46,1.09
+Reliance Industries,0,Random Forest,17.43,22.76,1.22
+Reliance Industries,0,KNN,47.58,57.74,3.34
+Reliance Industries,0,Ridge,13.35,17.99,0.94
+Tata Consultancy Services,0,XGBoost,88.31,146.5,3.49
+Tata Consultancy Services,0,Random Forest,92.33,152.56,3.65
+Tata Consultancy Services,0,KNN,125.08,185.12,4.85
+Tata Consultancy Services,0,Ridge,30.29,41.55,1.06

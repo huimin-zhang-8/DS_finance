@@ -256,5 +256,27 @@
       "source": "Financial Post",
       "publishedAt": "2026-05-20T13:26:35Z"
     }
+  ],
+  "2026-05-21": [
+    {
+      "title": "Goldman Says Oil Drawdowns Hit Record Pace as Buffer Shrinks",
+      "description": "Global stockpiles of crude oil and products are being drawn down at a record pace this month as the war in the Middle East drags on, curtailing supplies, according to Goldman Sachs Group Inc.",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-21T06:22:38Z"
+    },
+    {
+      "title": "Bausch + Lomb to Participate in the Goldman Sachs 47th Annual Global Healthcare Conference",
+      "description": "VAUGHAN, Ontario — Bausch + Lomb Corporation (NYSE/TSX: BLCO), a leading global eye health company dedicated to helping people see better to live better, today announced that Chairman and CEO Brent Saunders and Chief Medical Officer and Head of Research and D…",
+      "source": "Financial Post",
+      "publishedAt": "2026-05-21T11:19:07Z"
+    }
+  ],
+  "2026-05-23": [
+    {
+      "title": "Oil swings with market focused on US-Iran peace prospects",
+      "description": "The war and the curtailment in supplies have seen global stockpiles of crude oil and products being drawn down at a record pace, according to Goldman Sachs Group Inc",
+      "source": "Bloomberg",
+      "publishedAt": "2026-05-23T05:07:19Z"
+    }
   ]
 }
